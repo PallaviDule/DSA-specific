@@ -1,8 +1,3 @@
-### *What You Should Focus On*
-1. *Understand Core Patterns* → Learn a few *high-impact patterns* really well.  
-2. *Recognize When to Use Them* → Train yourself to *identify* problems where a pattern applies.  
-3. *Practice Applying Patterns* → Solve problems using *patterns instead of brute force*.  
-
 ###  *Essential Patterns You Must Know*
  *Sliding Window* → Optimize problems with contiguous subarrays/substrings  
  *Two Pointers* → Efficiently solve problems in sorted arrays  
@@ -13,9 +8,6 @@
  *Recursion & Divide and Conquer* → Solve complex problems by breaking them down  
  *Dynamic Programming* → Optimize overlapping subproblems (Fibonacci, Knapsack)  
  *Graph Traversal (DFS/BFS)* → Explore graphs, trees, and shortest paths  
-
-## *What Are Problem-Solving Patterns?*
-A *pattern* is a *general approach or strategy* that can be applied to solve multiple problems efficiently. 
 
 ### 1. Sliding Window Pattern
 The *Sliding Window* pattern is used for *problems involving contiguous sequences* in an array or string. Instead of using *nested loops (O(n²)), we use a **window that slides* through the data in *O(n)* time.  
