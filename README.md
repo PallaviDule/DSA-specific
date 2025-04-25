@@ -35,13 +35,13 @@ Inside the [`doc/`](./doc) folder:
 ### Array
 | Problem No. | Title     | Path |
 |-------------|-----------|------|
-| 001         | Two Sum   | [`array/001-two-sum/`](./array/001-two-sum/README.md) |
+| 001         | Two Sum   | [`001-two-sum/`](./array/001-two-sum/README.md) |
 
 
 ### Tree
 | Problem No. | Title                  | Path |
 |-------------|------------------------|------|
-| 001         | Root Node Sum Check    | [`tree/001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) |
+| 001         | Root Node Sum Check    | [`001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) |
 
 
 ## Work in Progress
