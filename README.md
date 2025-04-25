@@ -27,21 +27,30 @@ Inside the [`doc/`](./doc) folder:
 - Browse by category or search for keywords.
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
 - How To Run:
-    - Run any `.js` file directly with Node.js to test OR
-    - Run `node index.js ${problemKey}` you will find problem key for each problem in index.js
+    - **Directly run any `.js` file** with Node.js to test the solution:
+        - Example: `node array/001-two-sum/solution.js`
+    - **Run using the central `index.js`** to easily execute problems by their keys:
+        - Run the following command with the desired **problem key**:`node index.js ${problemKey}`
+            - You can find the **problem key** for each problem in the main table.
+            - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum`
+
 
 ## ✅ Sample Problems (Grouped by Category)
 
 ### Array
-| Problem No. | Title     | Path |
-|-------------|-----------|------|
-| 001         | Two Sum   | [`001-two-sum/`](./array/001-two-sum/README.md) |
+| Problem No. | Title     | Path | Problem Key | Difficulty
+|-------------|-----------|------|--------| -----
+| 001         | Two Sum   | [`001-two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
+| 002         | Richest customer wealth  | [`richest-customer-wealth/`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
+
 
 
 ### Tree
-| Problem No. | Title                  | Path |
-|-------------|------------------------|------|
-| 001         | Root Node Sum Check    | [`001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) |
+| Problem No. | Title                  | Path | Problem Key | Difficulty
+|-------------|------------------------|------|----| ---
+| 001         | Root Node Sum Check    | [`001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) | rootEqualsSum| easy 
+
+
 
 
 ## Work in Progress

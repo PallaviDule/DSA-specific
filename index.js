@@ -1,5 +1,9 @@
 const problems = {
+    // array
     twoSum: require('./array/001-two-sum/solution'),
+    richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
+
+    // tree
     rootEqualsSum: require('./tree/001-root-equals-sum-of-children/solution'),
   };
   
