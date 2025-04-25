@@ -1,4 +1,4 @@
-# LeetCode DSA Practice
+# DSA Practice
 Welcome!    
 This repository is a collection of coding problems organized by Data Structures and Algorithms (DSA) topics. Each problem includes a clear explanation, JavaScript implementation, and notes on which data structure is being used and why.
 
