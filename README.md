@@ -12,8 +12,8 @@ Each problem folder includes:
 
 | Category | Path |
 |----------|------|
-| Arrays   | [`arrays/`](./arrays) |
-| Trees    | [`trees/`](./trees) |
+| Arrays   | [`arrays/`](./array) |
+| Trees    | [`trees/`](./tree) |
 | Strings  | `strings/` (coming soon) |
 | Linked Lists | `linked-lists/` (coming soon) |
 | Stacks & Queues | `stacks-queues/` (coming soon) |
@@ -41,7 +41,7 @@ Inside the [`doc/`](./doc) folder:
 ### Tree
 | Problem No. | Title                  | Path |
 |-------------|------------------------|------|
-| 001         | Root Node Sum Check    | [`tree/001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md |
+| 001         | Root Node Sum Check    | [`tree/001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) |
 
 
 ## Work in Progress
