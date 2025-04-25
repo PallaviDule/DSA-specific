@@ -1,0 +1,20 @@
+{
+  "name": "dsa-specific",
+  "version": "1.0.0",
+  "description": "Welcome! This repository is a curated collection of coding problems organized by Data Structures and Algorithms (DSA) topics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PallaviDule/DSA-specific.git"
+  },
+  "keywords": [],
+  "author": "Pallavi Dule",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PallaviDule/DSA-specific/issues"
+  },
+  "homepage": "https://github.com/PallaviDule/DSA-specific#readme"
+}

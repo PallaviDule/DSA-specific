@@ -18,4 +18,8 @@ function twoSum(nums, target) {
 }
 
 
-twoSum([2,7,11,15], 9);
+export function run() {
+    // Inside a template literal, JavaScript implicitly calls .toString() on the array. 
+    const input = [2,7,11,15]; const target = 9;
+    console.log(`Input: ${JSON.stringify(input)}, Target: ${target} and Result: ${JSON.stringify(twoSum(input, target))}`); 
+};
