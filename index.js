@@ -2,6 +2,7 @@ const problems = {
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
+    sumOf1dArray: require('./array/easy/sum-of-1d-array/solution'),
 
     // tree
     rootEqualsSum: require('./tree/001-root-equals-sum-of-children/solution'),
