@@ -37,6 +37,13 @@ Inside the [`doc/`](./doc) folder:
 
 ## ✅ Sample Problems (Grouped by Category)
 
+### Math / Basic Algorithm
+
+| Problem No. | Title         | Path                                           | Problem Key | Difficulty |
+|-------------|---------------|------------------------------------------------|------------|------ ------|
+| 001         | Fizz Buzz     | [`fizz-buzz`](./math/easy/fizz-buzz/README.md) | fizzBuzz   | Easy       |
+
+
 ### Array
 | Problem No. | Title     | Path | Problem Key | Difficulty
 |-------------|-----------|------|--------| -----

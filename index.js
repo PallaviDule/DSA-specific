@@ -1,4 +1,6 @@
 const problems = {
+    // math/basic algorithm
+    fizzBuzz: require('./math/easy/fizz-buzz/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
