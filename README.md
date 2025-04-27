@@ -24,7 +24,6 @@ Inside the [`doc/`](./doc) folder:
 - **`complexity.md`** – Time and space complexity tips and cheatsheets.
 
 ## How to Use
-- Browse by category or search for keywords.
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
 - How To Run:
     - **Directly run any `.js` file** with Node.js to test the solution:
