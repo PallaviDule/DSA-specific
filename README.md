@@ -15,7 +15,7 @@ Each problem folder includes:
 | Arrays   | [`arrays/`](./array) |
 | Trees    | [`trees/`](./tree) |
 | Strings  | `strings/` (coming soon) |
-| Linked Lists | `linked-lists/` (coming soon) |
+| Linked Lists | [`linked-lists/`](./linked-list/) |
 | Stacks & Queues | `stacks-queues/` (coming soon) |
 
 ## Learning Resources
@@ -27,16 +27,17 @@ Inside the [`doc/`](./doc) folder:
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
 - How To Run:
     - **Directly run any `.js` file** with Node.js to test the solution:
-        - Example: `node array/001-two-sum/solution.js`
+        - Example: `node array/easy/001-two-sum/solution.js`
     - **Run using the central `index.js`** to easily execute problems by their keys:
         - Run the following command with the desired **problem key**:`node index.js ${problemKey}`
             - You can find the **problem key** for each problem in the main table.
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum`
 
 
-## ✅ Sample Problems (Grouped by Category)
+## Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
+----
 
 | Problem No. | Title         | Path                                           | Problem Key | Difficulty |
 |-------------|---------------|------------------------------------------------|------------ |------------|
@@ -46,21 +47,24 @@ Inside the [`doc/`](./doc) folder:
 
 
 ### Array
+------
 | Problem No. | Title     | Path | Problem Key | Difficulty
 |-------------|-----------|------|--------| -----
 | 001         | Two Sum   | [`001-two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
 | 002         | Richest customer wealth  | [`richest-customer-wealth/`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
 |003| Sum of 1-D array|[`sum-of-1d-array`](./array/easy/sum-of-1d-array/README.md)|sumOf1dArray| easy
 
-
-
 ### Tree
+-----
 | Problem No. | Title                  | Path | Problem Key | Difficulty
 |-------------|------------------------|------|----| ---
 | 001         | Root Node Sum Check    | [`001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) | rootEqualsSum| easy 
 
-
-
+### Linked List
+-----
+| Problem No. | Title                  | Path | Problem Key | Difficulty
+|-------------|------------------------|------|----| ---
+| 001         | Middle of linked list    | [`middle-of-linked-list`](./linked-list/easy/middle-of-linked-list/README.md) | middleNode| easy 
 
 ## Work in Progress
 

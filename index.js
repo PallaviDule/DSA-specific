@@ -9,6 +9,9 @@ const problems = {
 
     // tree
     rootEqualsSum: require('./tree/001-root-equals-sum-of-children/solution'),
+
+    // linked list
+    middleNode: require('./linked-list/easy/middle-of-linked-list/solution')
   };
   
 const key = process.argv[2];
