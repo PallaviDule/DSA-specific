@@ -42,7 +42,8 @@ Output: [3, 4, 6, 16, 17]
 - `-10⁶ <= nums[i] <= 10⁶`
 
 
-**✨ Try solving the problem yourself first. Then, revisit this section for the approach and solution details.**
+### Encouragement Before You Peek 👀
+✨ It is encouraged to first attempt solving the problem yourself. Once done, come back here to review the approach and solution in the respective file.
 
 ## Approach
 Solution is [Here](./solution.js)
@@ -71,3 +72,10 @@ For `nums = [1, 2, 3, 4]`:
 | 3   | 3 | 6          | 4                | 10              | [1, 3, 6, 10]     |
 
 ✅ Final Output: `[1, 3, 6, 10]`
+
+
+## Time and Space Complexity
+Complexity | Details
+---|---
+Time | O(n) - We iterate through the array exactly once.
+Space | O(1) - We modify the input array itself without using extra space. (Ignoring output space)
