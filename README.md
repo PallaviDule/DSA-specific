@@ -43,7 +43,9 @@ Inside the [`doc/`](./doc) folder:
 | Problem No. | Title         | Path                                           | Problem Key | Difficulty |
 |-------------|---------------|------------------------------------------------|------------ |------------|
 | 001         | Fizz Buzz     | [`fizz-buzz`](./math/easy/fizz-buzz/README.md) | fizzBuzz    | Easy       |
-|1342	      | Number of Steps to Reduce a Number to Zero	| [`number-of-steps`](./math/easy/number-of-steps-to-reduce-number/README.md)	| numberOfSteps|Easy
+|002	      | Number of Steps to Reduce a Number to Zero	| [`number-of-steps`](./math/easy/number-of-steps-to-reduce-number/README.md)	| numberOfSteps|Easy
+|003	      | Palindrome	| [`palindrome`](./math/easy/palindrome/README.md)	| palindrome|Easy
+
 
 
 ### Array
