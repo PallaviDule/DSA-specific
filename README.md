@@ -60,7 +60,7 @@ Inside the [`doc/`](./doc) folder:
 -----
 | Problem No. | Title                  | Path | Problem Key | Difficulty
 |-------------|------------------------|------|----| ---
-| 001         | Ransom Note    | [`ransom-note`](./map/easy/ransom-note/README.md) | rootEqualsSum| easy 
+| 001         | Ransom Note    | [`ransom-note`](./map/easy/ransom-note/README.md) | ransomNote| easy 
 
 
 ### Tree
