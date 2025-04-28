@@ -52,7 +52,7 @@ Inside the [`doc/`](./doc) folder:
 ------
 | Problem No. | Title     | Path | Problem Key | Difficulty
 |-------------|-----------|------|--------| -----
-| 001         | Two Sum   | [`001-two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
+| 001         | Two Sum   | [`two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
 | 002         | Richest customer wealth  | [`richest-customer-wealth/`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
 |003| Sum of 1-D array|[`sum-of-1d-array`](./array/easy/sum-of-1d-array/README.md)|sumOf1dArray| easy
 
@@ -67,7 +67,7 @@ Inside the [`doc/`](./doc) folder:
 -----
 | Problem No. | Title                  | Path | Problem Key | Difficulty
 |-------------|------------------------|------|----| ---
-| 001         | Root Node Sum Check    | [`001-root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) | rootEqualsSum| easy 
+| 001         | Root Node Sum Check    | [`root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) | rootEqualsSum| easy 
 
 ### Linked List
 -----
