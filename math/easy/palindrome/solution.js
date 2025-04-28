@@ -38,6 +38,7 @@ const isPalindrome3 = (x) => {
 }
 
 const isPalindrome = (num) => {
+    console.log('input:', num)
     if (num < 0) return false;
 
     let reverse = 0;
@@ -45,7 +46,7 @@ const isPalindrome = (num) => {
     for(let i = num; i >= 1; i = Math.floor(i/10)) {  // 12 //1 // 0
         reverse = (reverse*10) + (i%10); // 0+1 // 10+2// 120 + 1
     }
-    console.log('input:', num, ', reversed value: ', reverse);
+    console.log('reversed value: ', reverse);
     return num == reverse;
 }
 
