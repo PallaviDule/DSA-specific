@@ -10,12 +10,13 @@ Each problem folder includes:
 
 ## Categories
 
-| Category | Path |
-|----------|------|
-| Arrays   | [`arrays/`](./array) |
-| Trees    | [`trees/`](./tree) |
-| Strings  | `strings/` (coming soon) |
-| Linked Lists | [`linked-lists/`](./linked-list/) |
+| Category      | Path |
+|----------     |------|
+| Arrays        | [`arrays/`](./array)       |
+| Trees         | [`trees/`](./tree)         |
+| Map           | [`map/`](./array/)         |
+| Strings       | `strings/` (coming soon)   |
+| Linked Lists  | [`linked-lists/`](./linked-list/) |
 | Stacks & Queues | `stacks-queues/` (coming soon) |
 
 ## Learning Resources
