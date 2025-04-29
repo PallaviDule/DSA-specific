@@ -21,17 +21,10 @@ Great point — here's an improved version of the table with a note in the **"Re
 | Linked Lists     | [`linked-lists/`](./linked-list/)   | [Linked List – GFG (Concept)](https://www.geeksforgeeks.org/data-structures/linked-list/) |
 | Stacks & Queues  | `stacks-queues/` (coming soon)      | [Stack & Queue – GFG (Concept)](https://www.geeksforgeeks.org/stack-data-structure/)      |
 
-
-This makes it clear that:
-- MDN links point to **built-in JavaScript methods**
-- GFG links explain **concepts and operations** for non-native structures
-
-Let me know if you want this merged into your existing `README.md`, or if you'd like a similar table per folder.
-
-## Learning Resources
-Inside the [`doc/`](./doc) folder:
-- **`data-structures.md`** – Key concepts and when to use what.
-- **`complexity.md`** – Time and space complexity tips and cheatsheets.
+-  Learning Resources   
+    Inside the [`doc/`](./doc) folder:
+    - **[Data-Structure1](./doc/data-structures.md)** – Key concepts and when to use what.
+    - **[Code-Compleixty](./doc/Code-complexity.md)** – Time and space complexity tips and cheatsheets.
 
 ## How to Use
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
