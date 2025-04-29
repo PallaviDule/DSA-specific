@@ -9,8 +9,12 @@ const problems = {
     sumOf1dArray: require('./array/easy/sum-of-1d-array/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
+    // set
+    longestSubstringNoDuplicateSet: require('./set/medium/longest-substring-without-duplicate/solution'),
     // tree
     rootEqualsSum: require('./tree/001-root-equals-sum-of-children/solution'),
+    // string
+    longestSubstringNoDuplicate: require('./string/medium/longest-substring-without-duplicate/solution'),
 
     // linked list
     middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),

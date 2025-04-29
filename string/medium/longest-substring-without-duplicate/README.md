@@ -39,15 +39,14 @@ Try solving it on your own first. Think about how you can use a sliding window a
 
 ## Approach
 
-We use a **sliding window** technique with two pointers (`left` and `right`) to find the longest substring without repeating characters. Here's how it works:
+We use a dynamic array (`arr`) to represent the current substring without repeating characters.
 
-1. Initialize two pointers, `left` and `right`, both starting at the beginning of the string.
-2. Use a **set** or **hashmap** to store characters that are currently in the window between `left` and `right`.
-3. Move the `right` pointer to expand the window and include new characters.
-4. If a character repeats, increment the `left` pointer to shrink the window until there are no duplicate characters.
-5. Track the maximum length of the window as `right` moves across the string.
+1. Loop through each character in the input string.
+2. While the character already exists in the array (i.e., it's a duplicate), remove characters from the start using `shift()` — this ensures the substring stays unique.
+3. Add the current character to the array.
+4. After each addition, update `maxLength` by comparing it with the current array length (converted to string using `arr.join('')` to ensure character count).
 
-This approach ensures that we only traverse the string once, resulting in an optimal time complexity of **O(n)**.
+This approach ensures we're always tracking the longest valid substring without duplicates by shrinking the window from the start whenever a repeat is found.
 
 ## Walkthrough Example
 
@@ -66,6 +65,6 @@ Result: `3`
 
 ## Time and Space Complexity
 
-**Time:** O(n) — We traverse the string once with both pointers moving from left to right.  
+**Time:** O(n) — This approach ensures that we only traverse the string once, resulting in an optimal time complexity of **O(n)**.
 **Space:** O(min(n, m)) — We store characters in a set (or hashmap), where `n` is the length of the string and `m` is the number of unique characters.
 

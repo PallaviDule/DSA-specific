@@ -64,6 +64,19 @@ Great point — here's an improved version of the table with a note in the **"Re
 |-------------|------------------------|------|----| ---
 | 001         | Ransom Note    | [`ransom-note`](./map/easy/ransom-note/README.md) | ransomNote| easy 
 
+### String
+-----
+| Problem No. | Title                  | Path | Problem Key | Difficulty
+|-------------|------------------------|------|----| ---
+| 001         | Longest substring without duplicates    | [`longest-substring-without-duplicate`](./string/medium/longest-substring-without-duplicate/README.md) | longestSubstringNoDuplicate| medium 
+
+### Set
+-----
+| Problem No. | Title                  | Path | Problem Key | Difficulty
+|-------------|------------------------|------|----| ---
+| 001         | Longest substring without duplicates    | [`longest-substring-without-duplicate`](./set/medium/longest-substring-without-duplicate/README.md) | longestSubstringNoDuplicateSet| medium 
+
+
 
 ### Tree
 -----
