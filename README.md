@@ -10,14 +10,23 @@ Each problem folder includes:
 
 ## Categories
 
-| Category      | Path |
-|----------     |------|
-| Arrays        | [`arrays/`](./array)       |
-| Trees         | [`trees/`](./tree)         |
-| Map           | [`map/`](./array/)         |
-| Strings       | `strings/` (coming soon)   |
-| Linked Lists  | [`linked-lists/`](./linked-list/) |
-| Stacks & Queues | `stacks-queues/` (coming soon) |
+Great point — here's an improved version of the table with a note in the **"Reference Docs"** column indicating that the link points to built-in methods or concept documentation, so it's clear why it's useful before diving into problems:
+
+| Category         | Path                                | Reference Docs (In-built Methods / Concepts)                                              |
+|------------------|-------------------------------------|--------------------------------------------------------------------------------------------|
+| Arrays           | [`arrays/`](./array)                | [Array Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) |
+| Trees            | [`trees/`](./tree)                  | [Tree – GFG (Concept)](https://www.geeksforgeeks.org/binary-tree-data-structure/)          |
+| Map              | [`map/`](./array/)                  | [Map Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)     |
+| Strings          | [`strings/`](./string/)            | [String Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
+| Linked Lists     | [`linked-lists/`](./linked-list/)   | [Linked List – GFG (Concept)](https://www.geeksforgeeks.org/data-structures/linked-list/) |
+| Stacks & Queues  | `stacks-queues/` (coming soon)      | [Stack & Queue – GFG (Concept)](https://www.geeksforgeeks.org/stack-data-structure/)      |
+
+
+This makes it clear that:
+- MDN links point to **built-in JavaScript methods**
+- GFG links explain **concepts and operations** for non-native structures
+
+Let me know if you want this merged into your existing `README.md`, or if you'd like a similar table per folder.
 
 ## Learning Resources
 Inside the [`doc/`](./doc) folder:
