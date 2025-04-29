@@ -17,9 +17,10 @@ Great point — here's an improved version of the table with a note in the **"Re
 | Arrays           | [`arrays/`](./array)                | [Array Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) |
 | Trees            | [`trees/`](./tree)                  | [Tree – GFG (Concept)](https://www.geeksforgeeks.org/binary-tree-data-structure/)          |
 | Map              | [`map/`](./array/)                  | [Map Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)     |
-| Strings          | [`strings/`](./string/)            | [String Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
+| Strings          | [`strings/`](./string/)             | [String Methods – MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) |
 | Linked Lists     | [`linked-lists/`](./linked-list/)   | [Linked List – GFG (Concept)](https://www.geeksforgeeks.org/data-structures/linked-list/) |
 | Stacks & Queues  | `stacks-queues/` (coming soon)      | [Stack & Queue – GFG (Concept)](https://www.geeksforgeeks.org/stack-data-structure/)      |
+| Math             | [`basic-math/`](./math/)            | [Math - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 -  Learning Resources   
     Inside the [`doc/`](./doc) folder:
