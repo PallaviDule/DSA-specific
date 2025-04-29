@@ -1,6 +1,7 @@
 # Linked List in JavaScript
 
 This document covers both **Singly Linked List** and **Doubly Linked List**, including their structure, common operations, and full examples using all methods.
+[Problems of Linked List](../linked-list/)
 
 ## 📗 Singly Linked List
 
