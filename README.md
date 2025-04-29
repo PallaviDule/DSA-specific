@@ -44,7 +44,7 @@ Inside the [`doc/`](./doc) folder:
 |-------------|---------------|------------------------------------------------|------------ |------------|
 | 001         | Fizz Buzz     | [`fizz-buzz`](./math/easy/fizz-buzz/README.md) | fizzBuzz    | Easy       |
 |002	      | Number of Steps to Reduce a Number to Zero	| [`number-of-steps`](./math/easy/number-of-steps-to-reduce-number/README.md)	| numberOfSteps|Easy
-|003	      | Palindrome	| [`palindrome`](./math/easy/palindrome/README.md)	| palindrome|Easy
+|003	      | Palindrome	| [`palindrome`](./math/easy/palindrome-number/README.md)	| palindromeNumber|Easy
 
 
 
@@ -74,6 +74,8 @@ Inside the [`doc/`](./doc) folder:
 | Problem No. | Title                  | Path | Problem Key | Difficulty
 |-------------|------------------------|------|----| ---
 | 001         | Middle of linked list    | [`middle-of-linked-list`](./linked-list/easy/middle-of-linked-list/README.md) | middleNode| easy 
+| 002         | Add two numbers    | [`add-two-numbers`](./linked-list/medium/add-two-numbers/README.md) | addTwoLinkedListNumber| medium 
+
 
 ## Work in Progress
 

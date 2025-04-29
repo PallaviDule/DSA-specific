@@ -2,7 +2,7 @@ const problems = {
     // math/basic algorithm
     fizzBuzz: require('./math/easy/fizz-buzz/solution'),
     numberOfSteps: require('./math/easy/number-of-steps-to-reduce-number/solution'),
-    palindrome: require('./math/easy/palindrome/solution'),
+    palindromeNumber: require('./math/easy/palindrome-number/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
@@ -13,7 +13,8 @@ const problems = {
     rootEqualsSum: require('./tree/001-root-equals-sum-of-children/solution'),
 
     // linked list
-    middleNode: require('./linked-list/easy/middle-of-linked-list/solution')
+    middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),
+    addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution')
   };
   
 const key = process.argv[2];
