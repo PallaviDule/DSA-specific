@@ -26,6 +26,7 @@ Great point — here's an improved version of the table with a note in the **"Re
     Inside the [`doc/`](./doc) folder:
     - **[Data-Structure1](./doc/data-structures.md)** – Key concepts and when to use what.
     - **[Code-Compleixty](./doc/Code-complexity.md)** – Time and space complexity tips and cheatsheets.
+    - **[Patterns](./doc/Patterns.md)** 
 
 ## How to Use
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
