@@ -1,19 +1,19 @@
 ### Essential Patterns You Must Know
 These patterns cover the majority of coding interview problems. Mastering them helps you tackle DSA questions with confidence.
 
-| Pattern                 | When to Use                                                                 | Time Complexity  | Notes                                                              |
-|------------------------|------------------------------------------------------------------------------|------------------|--------------------------------------------------------------------|
-| [Sliding Window](#sliding-window-pattern)         | Contiguous subarrays/substrings (e.g., max sum, longest unique substring)   | O(n)             | Replace nested loops when window can slide                        |
-| [Two Pointers ](#two-pointers-pattern)          | Sorted arrays, merging, palindromes, partitioning                           | O(n)             | One pointer starts from each end or side-by-side                  |
-| Fast & Slow Pointers   | Linked list cycles, midpoint, detecting intersection                         | O(n)             | Tortoise and Hare approach                                         |
-| Merge Intervals        | Scheduling, overlapping intervals                                             | O(n log n)       | Sort + one-pass merge                                              |
-| Backtracking           | Permutations, combinations, subset generation                                | O(N!) or 2^N     | DFS style recursion tree; prune invalid branches                  |
-| [Binary Search](#binary-search-pattern)          | Search in sorted arrays, partitions                                          | O(log n)         | Powerful when array is monotonic or sorted                        |
-| Recursion & Divide/Conquer | Break problems into subproblems, combine solutions                     | Varies           | QuickSort, MergeSort, etc.                                         |
-| Dynamic Programming    | Optimal substructure, overlapping subproblems                                | O(n), O(n^2), etc | Think in terms of states and transitions                         |
-| Graph Traversal (DFS/BFS) | Explore graphs, trees, grid-based problems                             | O(V+E)           | DFS = backtracking style, BFS = level-order                        |
-| Heap / Priority Queue  | Find Kth smallest/largest, stream median                                     | O(log k) per op  | Great for top-K problems                                           |
-| Union Find / Disjoint Set | Connected components, cycle detection (graphs)                          | O(α(n))          | Very efficient with path compression and union by rank            |
+| Pattern                 | What It Means                                                                 | When to Use                                                                 | Time Complexity  | Notes                                                              |
+|------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------|--------------------------------------------------------------------|
+| **[Sliding Window](#sliding-window-pattern)**      | A technique using a "window" (subarray or substring) that moves over data     | Contiguous subarrays/substrings (e.g., max sum, longest unique substring)   | O(n)             | Use when a window of elements can be reused instead of recomputed |
+| **[Two Pointers](#two-pointers-pattern)**        | Use two indices (pointers) to scan a sorted array efficiently                 | Sorted arrays, merging, palindromes, partitioning                           | O(n)             | Often start from ends or side-by-side and move based on logic     |
+| **[Fast & Slow Pointers](#fast--slow-pointers-tortoise--hare**| Two pointers: one moves faster to detect patterns like cycles                 | Linked list cycles, midpoint, intersection                                  | O(n)             | Common for loop/cycle detection                                    |
+| **Merge Intervals**     | Sort intervals, then merge overlapping ones                                   | Scheduling, overlapping intervals                                           | O(n log n)       | Sort by start time, then merge                                     |
+| **Backtracking**        | Try all combinations recursively and backtrack on invalid paths               | Permutations, combinations, subset generation                               | O(N!) or 2^N     | Recursive DFS tree; prune bad branches                             |
+| **[Binary Search](#binary-search-pattern)**       | Repeatedly divide sorted array and search half                                | Search in sorted arrays, partitions                                         | O(log n)         | Needs sorted data; powerful for range partitioning too             |
+| **Recursion & Divide/Conquer** | Break problem into smaller chunks, solve, then combine             | Sorting, searching, complex recursive solutions                             | Varies           | QuickSort, MergeSort, Tree problems                                |
+| **Dynamic Programming** | Store and reuse results of subproblems to avoid recomputation                 | Optimal substructure + overlapping subproblems (Fibonacci, Knapsack, etc.)  | O(n), O(n²), etc | Use memoization or tabulation                                      |
+| **Graph Traversal (DFS/BFS)** | Visit every node in a graph/tree/grid using recursion or queue        | Grids, graphs, shortest path, connected components                          | O(V+E)           | DFS = stack/recursion, BFS = queue/levels                          |
+| **Heap / Priority Queue**| Specialized tree structure for quick access to min/max elements              | Top K elements, scheduling, stream median                                   | O(log k) per op  | Often used in greedy and optimization problems                     |
+| **Union Find / Disjoint Set**| Group elements, detect cycles/components efficiently                 | Connected components, cycle detection (graphs)                              | O(α(n))          | Used in Kruskal’s MST, social network groups, etc.                 |          |
 
 ---
 
