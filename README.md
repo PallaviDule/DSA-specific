@@ -98,6 +98,10 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 002         | Add two numbers    | [`add-two-numbers`](./linked-list/medium/add-two-numbers/README.md) | addTwoLinkedListNumber| medium 
 
 
+## Cheatsheet
+![image](https://github.com/user-attachments/assets/05ff2e93-161c-4c7c-b08c-4f1574869691)
+
+
 ## Work in Progress
 
 This is an evolving repository as I solve more problems.  
