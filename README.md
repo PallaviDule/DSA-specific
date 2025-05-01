@@ -27,6 +27,7 @@ Great point — here's an improved version of the table with a note in the **"Re
     - **[Data-Structure1](./doc/data-structures.md)** – Key concepts and when to use what.
     - **[Code-Compleixty](./doc/Code-complexity.md)** – Time and space complexity tips and cheatsheets.
     - **[Patterns](./doc/Patterns.md)** 
+    - **[DSA Cheatsheet](#cheatsheet)**
 
 ## How to Use
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
@@ -44,58 +45,58 @@ Great point — here's an improved version of the table with a note in the **"Re
 ### Math / Basic Algorithm
 ----
 
-| Problem No. | Title         | Path                                           | Problem Key | Difficulty |
-|-------------|---------------|------------------------------------------------|------------ |------------|
-| 001         | Fizz Buzz     | [`fizz-buzz`](./math/easy/fizz-buzz/README.md) | fizzBuzz    | Easy       |
-|002	      | Number of Steps to Reduce a Number to Zero	| [`number-of-steps`](./math/easy/number-of-steps-to-reduce-number/README.md)	| numberOfSteps|Easy
-|003	      | Palindrome	| [`palindrome`](./math/easy/palindrome-number/README.md)	| palindromeNumber|Easy
+| Problem No. | Title         | Path/ProblemKey                                           | Difficulty |
+|-------------|---------------|------------------------------------------------|------------|
+| 001         | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
+|002	      | Number of Steps to Reduce a Number to Zero	| [`numberOfSteps`](./math/easy/number-of-steps-to-reduce-number/README.md) |Easy
+|003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
 
 
 
 ### Array
 ------
-| Problem No. | Title     | Path | Problem Key | Difficulty
-|-------------|-----------|------|--------| -----
-| 001         | Two Sum   | [`two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
-| 002         | Richest customer wealth  | [`richest-customer-wealth/`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
-|003| Sum of 1-D array|[`sum-of-1d-array`](./array/easy/sum-of-1d-array/README.md)|sumOf1dArray| easy
-|004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)|medianOfTwoSortedArray| hard
-|005| Median of Two Sorted Arrays|[`useOfMergeOfMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)|medianOfTwoSortedArrayMergeSort| hard
+| Problem No. | Title     | Path/Problem Key | Difficulty
+|-------------|-----------|------| -----
+| 001         | Two Sum   | [`twoSum`](./array/001-two-sum/README.md) | twoSum |easy
+| 002         | Richest customer wealth  | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
+|003| Sum of 1-D array|[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)| easy
+|004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)| hard
+|005| Median of Two Sorted Arrays|[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)| hard
 
 
 
 ### Map
 -----
-| Problem No. | Title                  | Path | Problem Key | Difficulty
-|-------------|------------------------|------|----| ---
-| 001         | Ransom Note    | [`ransom-note`](./map/easy/ransom-note/README.md) | ransomNote| easy 
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Ransom Note    | [`ransomNote`](./map/easy/ransom-note/README.md) | easy 
 
 ### String
 -----
-| Problem No. | Title                  | Path | Problem Key | Difficulty
-|-------------|------------------------|------|----| ---
-| 001         | Longest substring without duplicates    | [`longest-substring-without-duplicate`](./string/medium/longest-substring-without-duplicate/README.md) | longestSubstringNoDuplicate| medium 
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicate`](./string/medium/longest-substring-without-duplicate/README.md) | medium 
 
 ### Set
 -----
-| Problem No. | Title                  | Path | Problem Key | Difficulty
-|-------------|------------------------|------|----| ---
-| 001         | Longest substring without duplicates    | [`longest-substring-without-duplicate`](./set/medium/longest-substring-without-duplicate/README.md) | longestSubstringNoDuplicateSet| medium 
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicateSet`](./set/medium/longest-substring-without-duplicate/README.md) | medium 
 
 
 
 ### Tree
 -----
-| Problem No. | Title                  | Path | Problem Key | Difficulty
-|-------------|------------------------|------|----| ---
-| 001         | Root Node Sum Check    | [`root-equals-sum-of-children`](./tree/001-root-equals-sum-of-children/README.md) | rootEqualsSum| easy 
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Root Node Sum Check    | [`rootEqualsSum`](./tree/001-root-equals-sum-of-children/README.md) | easy 
 
 ### Linked List
 -----
-| Problem No. | Title                  | Path | Problem Key | Difficulty
-|-------------|------------------------|------|----| ---
-| 001         | Middle of linked list    | [`middle-of-linked-list`](./linked-list/easy/middle-of-linked-list/README.md) | middleNode| easy 
-| 002         | Add two numbers    | [`add-two-numbers`](./linked-list/medium/add-two-numbers/README.md) | addTwoLinkedListNumber| medium 
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Middle of linked list    | [`middleNode`](./linked-list/easy/middle-of-linked-list/README.md) | easy 
+| 002         | Add two numbers    | [`addTwoLinkedListNumber`](./linked-list/medium/add-two-numbers/README.md) | medium 
 
 
 ## Cheatsheet
