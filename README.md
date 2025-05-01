@@ -26,6 +26,7 @@ Great point — here's an improved version of the table with a note in the **"Re
     Inside the [`doc/`](./doc) folder:
     - **[Data-Structure1](./doc/data-structures.md)** – Key concepts and when to use what.
     - **[Code-Compleixty](./doc/Code-complexity.md)** – Time and space complexity tips and cheatsheets.
+    - **[Patterns](./doc/Patterns.md)** 
 
 ## How to Use
 - Each folder has a `README.md` explaining the problem, thought process, and solution.
@@ -58,6 +59,10 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 001         | Two Sum   | [`two-sum/`](./array/001-two-sum/README.md) | twoSum |easy
 | 002         | Richest customer wealth  | [`richest-customer-wealth/`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
 |003| Sum of 1-D array|[`sum-of-1d-array`](./array/easy/sum-of-1d-array/README.md)|sumOf1dArray| easy
+|004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)|medianOfTwoSortedArray| hard
+|005| Median of Two Sorted Arrays|[`useOfMergeOfMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)|medianOfTwoSortedArrayMergeSort| hard
+
+
 
 ### Map
 -----
