@@ -5,6 +5,7 @@ const problems = {
     palindromeNumber: require('./math/easy/palindrome-number/solution'),
     medianOfTwoSortedArray: require('./array/hard/median-of-two-sorted-array/solution'),
     medianOfTwoSortedArrayMergeSort: require('./array/hard/median-of-two-sorted-array/useMergeOfMergeSort'),
+    romanToInteger: require('./math/easy/roman-to-integer/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),

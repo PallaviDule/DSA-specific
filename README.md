@@ -50,6 +50,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 001         | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
 |002	      | Number of Steps to Reduce a Number to Zero	| [`numberOfSteps`](./math/easy/number-of-steps-to-reduce-number/README.md) |Easy
 |003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
+|004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
+
 
 
 
@@ -57,8 +59,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 ------
 | Problem No. | Title     | Path/Problem Key | Difficulty
 |-------------|-----------|------| -----
-| 001         | Two Sum   | [`twoSum`](./array/001-two-sum/README.md) | twoSum |easy
-| 002         | Richest customer wealth  | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md) | richestCustomerWealth |easy
+| 001         | Two Sum   | [`twoSum`](./array/001-two-sum/README.md) |easy
+| 002         | Richest customer wealth  | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md)  |easy
 |003| Sum of 1-D array|[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)| easy
 |004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)| hard
 |005| Median of Two Sorted Arrays|[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)| hard
