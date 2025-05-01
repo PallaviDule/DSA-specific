@@ -35,6 +35,14 @@ Try solving it using binary search. Focus on minimizing the search space over th
 ## Approach
 - Use Merge of Merge Sort – O(m + n) Time and O(1) Space
 - The given arrays are sorted, so merge the sorted arrays in an efficient way and keep the count of elements merged so far. 
+    - Use the merge step of Merge Sort to combine two sorted arrays into one sorted array.
+- So instead of sorting everything from scratch, we can simulate that merge step:
+    - We imagine both arrays as two halves of a sorted array.
+    - Since both are already sorted, we can walk through them like two people reading a list:
+        - Look at the first elements of both arrays.
+        - Take the smaller one and move that pointer forward.
+    - Keep repeating until one of the arrays is completely used up.
+    - Once one list is done, we just take the remaining elements from the other one — they’re already sorted.
 - So when we reach half of the total, print the median. There can be two cases: 
     - Case 1: m+n is odd, the median is the ((m+n)/2)th element while merging the arrays.
     - Case 2: m+n is even, the median will be the average of ((m+n)/2 – 1)th and ((m+n)/2)th element while merging the arrays.
