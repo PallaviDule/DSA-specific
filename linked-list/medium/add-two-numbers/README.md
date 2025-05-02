@@ -1,7 +1,3 @@
-You're absolutely right — the **Approach** section should provide a clear and complete explanation, not just a summary. Here's the improved `README.md` with a **detailed Approach**, while keeping all your formatting preferences intact:
-
----
-
 ## 2. Add Two Numbers
 
 ## Problem Statement

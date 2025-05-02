@@ -100,6 +100,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |-------------|------------------------|------| ---
 | 001         | Middle of linked list    | [`middleNode`](./linked-list/easy/middle-of-linked-list/README.md) | easy 
 | 002         | Add two numbers    | [`addTwoLinkedListNumber`](./linked-list/medium/add-two-numbers/README.md) | medium 
+| 003         | Merge two sorted List    | [`mergeTwoSortedLinkedList`](./linked-list/easy/merge-two-sorted-lists/README.md) | easy 
+
 
 
 ## Cheatsheet

@@ -16,10 +16,21 @@ function twoSum(nums, target) {
     }
     return [];
 }
+// using two pointer for sorted arrays
+function findPairWithSum(arr, target) {
+    let left = 0, right = arr.length - 1;
+    while (left < right) {
+        let sum = arr[left] + arr[right];
+        if (sum === target) return [arr[left], arr[right]]; // if needed index return [left, right]
+        sum < target ? left++ : right--;
+    }
+    return [];
+}
 
 
 export function run() {
     // Inside a template literal, JavaScript implicitly calls .toString() on the array. 
     const input = [2,7,11,15]; const target = 9;
     console.log(`Input: ${JSON.stringify(input)}, Target: ${target} and Result: ${JSON.stringify(twoSum(input, target))}`); 
+    console.log(`Input: ${JSON.stringify(input)}, Target: ${target} and Result using two poiner: ${JSON.stringify(findPairWithSum(input, target))}`); 
 };

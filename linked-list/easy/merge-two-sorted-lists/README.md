@@ -26,11 +26,7 @@ Output: []
 Input: list1 = [], list2 = [0]  
 Output: [0]
 
----
-
-> Try solving it on your own before looking at the approach and solution.
-
----
+> **Try solving it on your own before looking at the approach and solution.**
 
 ## Approach
 
@@ -43,8 +39,6 @@ Since both linked lists are already sorted, we can use the **two-pointer techniq
 - Continue until one list is exhausted, then append the rest of the other list.
 
 We use a **dummy node** to simplify edge cases like an empty input list.
-
----
 
 ## Pseudocode
 
@@ -70,8 +64,6 @@ FUNCTION mergeTwoLists(list1, list2):
     RETURN dummy.next
 ```
 
----
-
 ## Walkthrough Example
 
 Input: list1 = [1,2,4], list2 = [1,3,4]
@@ -83,7 +75,6 @@ Input: list1 = [1,2,4], list2 = [1,3,4]
 - Compare 4 and 4 → take 4 from list1 → result: [1,1,2,3,4]
 - list1 is exhausted → take remaining 4 from list2 → result: [1,1,2,3,4,4]
 
----
 
 ## Data Evolution
 
@@ -95,8 +86,6 @@ Input: list1 = [1,2,4], list2 = [1,3,4]
 | 4    | 4     | 3→4   | 3 (list2)   | 1 → 1 → 2 → 3        |
 | 5    | 4     | 4     | 4 (list1)   | 1 → 1 → 2 → 3 → 4    |
 | 6    | null  | 4     | 4 (list2)   | 1 → 1 → 2 → 3 → 4 → 4|
-
----
 
 ## Time and Space Complexity
 

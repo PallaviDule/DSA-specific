@@ -24,7 +24,8 @@ const problems = {
 
     // linked list
     middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),
-    addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution')
+    addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution'),
+    mergeTwoSortedLinkedList: require('./linked-list/easy/merge-two-sorted-lists/solution')
   };
   
 const key = process.argv[2];
