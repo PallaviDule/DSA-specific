@@ -64,9 +64,6 @@ Great point — here's an improved version of the table with a note in the **"Re
 |003| Sum of 1-D array|[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)| easy
 |004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)| hard
 |005| Median of Two Sorted Arrays|[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)| hard
-
-
-
 ### Map
 -----
 | Problem No. | Title                  | Path/Problem Key | Difficulty
@@ -85,7 +82,11 @@ Great point — here's an improved version of the table with a note in the **"Re
 |-------------|------------------------|------| ---
 | 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicateSet`](./set/medium/longest-substring-without-duplicate/README.md) | medium 
 
-
+### Stack
+-----
+| Problem No. | Title                  | Path/Problem Key | Difficulty
+|-------------|------------------------|------| ---
+| 001         | Valid Parentheses   | [`validParentheses`](./stack/easy/valid-parentheses/README.md) | easy 
 
 ### Tree
 -----
