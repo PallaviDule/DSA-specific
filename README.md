@@ -43,7 +43,6 @@ Great point — here's an improved version of the table with a note in the **"Re
 ## Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
-----
 
 | Problem No. | Title         | Path/ProblemKey                                           | Difficulty |
 |-------------|---------------|------------------------------------------------|------------|
@@ -54,7 +53,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 
 ### Array
-------
+
 | Problem No. | Title     | Path/Problem Key | Difficulty
 |-------------|-----------|------| -----
 | 001         | Two Sum   | [`twoSum`](./array/001-two-sum/README.md) |easy
@@ -65,37 +64,37 @@ Great point — here's an improved version of the table with a note in the **"Re
 |006	      | Remove Duplicate from sorted arrays	| [`removeDuplicates`](./array/easy/remove-duplicates-from-sorted-arrays/README.md)	|Easy
 
 ### Map
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Ransom Note    | [`ransomNote`](./map/easy/ransom-note/README.md) | easy 
 
 ### String
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicate`](./string/medium/longest-substring-without-duplicate/README.md) | medium 
 
 ### Set
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicateSet`](./set/medium/longest-substring-without-duplicate/README.md) | medium 
 
 ### Stack
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Valid Parentheses   | [`validParentheses`](./stack/easy/valid-parentheses/README.md) | easy 
 
 ### Tree
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Root Node Sum Check    | [`rootEqualsSum`](./tree/001-root-equals-sum-of-children/README.md) | easy 
 
 ### Linked List
------
+
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Middle of linked list    | [`middleNode`](./linked-list/easy/middle-of-linked-list/README.md) | easy 
