@@ -53,8 +53,6 @@ Great point — here's an improved version of the table with a note in the **"Re
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
 
 
-
-
 ### Array
 ------
 | Problem No. | Title     | Path/Problem Key | Difficulty
@@ -64,6 +62,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |003| Sum of 1-D array|[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)| easy
 |004| Median of Two Sorted Arrays|[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)| hard
 |005| Median of Two Sorted Arrays|[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)| hard
+|006	      | Remove Duplicate from sorted arrays	| [`removeDuplicates`](./array/easy/remove-duplicates-from-sorted-arrays/README.md)	|Easy
+
 ### Map
 -----
 | Problem No. | Title                  | Path/Problem Key | Difficulty

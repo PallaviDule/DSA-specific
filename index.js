@@ -10,6 +10,7 @@ const problems = {
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
     sumOf1dArray: require('./array/easy/sum-of-1d-array/solution'),
+    removeDuplicatesFromSortedArray: require('./array/easy/remove-duplicates-from-sorted-arrays/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
