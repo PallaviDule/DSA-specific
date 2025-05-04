@@ -75,16 +75,17 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
-| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicate`](./string/medium/longest-substring-without-duplicate/README.md) | medium 
-| 002         | Longest common prefix    | [`longestCommonPrefix`](./string/easy/longest-common-prefix/README.md) | easy 
-| 003         | Find the Index of the First Occurrence in a String    | [`indexOfFirstOccurrence`](./string/easy/find-index-of-first-occurrence-in-string/README.md) | easy 
+| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicate`](./string/medium/longest-substring-without-duplicate/README.md) | Medium 
+| 002         | Longest common prefix    | [`longestCommonPrefix`](./string/easy/longest-common-prefix/README.md) | Easy 
+| 003         | Find the Index of the First Occurrence in a String    | [`indexOfFirstOccurrence`](./string/easy/find-index-of-first-occurrence-in-string/README.md) | Easy 
+| 004         | Length of Last Word    | [`lengthOfLastWord`](./string/easy/length-of-last-word/README.md) | Easy (Two-pointer)
 
 
 ### Set
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
-| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicateSet`](./set/medium/longest-substring-without-duplicate/README.md) | medium 
+| 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicateSet`](./set/medium/longest-substring-without-duplicate/README.md) | Medium 
 
 ### Stack
 
