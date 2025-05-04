@@ -27,7 +27,7 @@ If not, return the index where it would be if it were inserted in order.
 - Why binary search?
     - Sorted array
     - Need O(log n) efficiency
-    -Problem is about positioning, which binary search handles well
+    - Problem is about positioning, which binary search handles well
 
 ### Pseudocode  
 ```
