@@ -3,12 +3,13 @@
 ## Problem Statement
 
 ## Input
+Constraints 
 
 ## Output
 
-## Constraints(if any)
-
 ## Approach
+### Tags: Binary Search or whatever we are gonna use
+### Pseudocode
 
 ## Walkthrough Example
 
