@@ -21,6 +21,7 @@ const problems = {
     // string
     longestSubstringNoDuplicate: require('./string/medium/longest-substring-without-duplicate/solution'),
     longestCommonPrefix: require('./string/easy/longest-common-prefix/solution'),
+    indexOfFirstOccurrence: require('./string/easy/find-index-of-first-occurrence-in-string/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
 

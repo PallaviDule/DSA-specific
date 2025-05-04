@@ -76,6 +76,9 @@ Great point — here's an improved version of the table with a note in the **"Re
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Longest substring without duplicates    | [`longestSubstringNoDuplicate`](./string/medium/longest-substring-without-duplicate/README.md) | medium 
+| 002         | Longest common prefix    | [`longestCommonPrefix`](./string/easy/longest-common-prefix/README.md) | easy 
+| 003         | Find the Index of the First Occurrence in a String    | [`indexOfFirstOccurrence`](./string/easy/find-index-of-first-occurrence-in-string/README.md) | easy 
+
 
 ### Set
 
