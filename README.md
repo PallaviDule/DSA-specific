@@ -40,13 +40,13 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum`
 
 
-## Sample Problems (Grouped by Category)
+## 24 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
 | Problem No. | Title         | Path/ProblemKey                                           | Difficulty |
 |-------------|---------------|------------------------------------------------|------------|
-| 001         | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
+|001         | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
 |002	      | Number of Steps to Reduce a Number to Zero	| [`numberOfSteps`](./math/easy/number-of-steps-to-reduce-number/README.md) |Easy
 |003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
@@ -81,6 +81,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 002         | Longest common prefix    | [`longestCommonPrefix`](./string/easy/longest-common-prefix/README.md) | Easy 
 | 003         | Find the Index of the First Occurrence in a String    | [`indexOfFirstOccurrence`](./string/easy/find-index-of-first-occurrence-in-string/README.md) | Easy 
 | 004         | Length of Last Word    | [`lengthOfLastWord`](./string/easy/length-of-last-word/README.md) | Easy (Two-pointer)
+| 005        | Add Binary    | [`addBinary`](./string/easy/add-binary/README.md) | Easy (Math, Bit Manipulation, Simulation)
 
 
 ### Set

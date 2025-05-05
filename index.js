@@ -25,6 +25,7 @@ const problems = {
     longestCommonPrefix: require('./string/easy/longest-common-prefix/solution'),
     indexOfFirstOccurrence: require('./string/easy/find-index-of-first-occurrence-in-string/solution'),
     lengthOfLastWord: require('./string/easy/length-of-last-word/solution'),
+    addBinary: require('./string/easy/add-binary/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
 
