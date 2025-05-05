@@ -50,6 +50,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |002	      | Number of Steps to Reduce a Number to Zero	| [`numberOfSteps`](./math/easy/number-of-steps-to-reduce-number/README.md) |Easy
 |003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
+|005	      | Plus One	| [`plusOne`](./math/easy/plus-one/README.md)	|Easy (array)
+
 
 
 ### Array

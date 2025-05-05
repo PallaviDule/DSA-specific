@@ -4,7 +4,7 @@
  */
 // var lengthOfLastWord = function(s) {
 //     let stringArray = s.trim().split(' ');
-//     //console.log('String Array:', stringArray);
+//     console.log('String Array:', stringArray);
 //     return stringArray[stringArray.length-1].length;
 // };
 
