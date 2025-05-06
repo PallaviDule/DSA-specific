@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 24 Sample Problems (Grouped by Category)
+## 26 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -51,8 +51,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
 |005	      | Plus One	| [`plusOne`](./math/easy/plus-one/README.md)	|Easy (array)
-
-
+|006        | Square root 	| [`squareRoot`](./math/easy/square-root/README.md)	|Easy (array, binary search)
 
 ### Array
 
@@ -100,16 +99,16 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
-| 001         | Root Node Sum Check    | [`rootEqualsSum`](./tree/001-root-equals-sum-of-children/README.md) | easy 
+| 001         | Root Node Sum Check    | [`rootEqualsSum`](./tree/001-root-equals-sum-of-children/README.md) | Easy 
 
 ### Linked List
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
-| 001         | Middle of linked list    | [`middleNode`](./linked-list/easy/middle-of-linked-list/README.md) | easy 
-| 002         | Add two numbers    | [`addTwoLinkedListNumber`](./linked-list/medium/add-two-numbers/README.md) | medium 
-| 003         | Merge two sorted List    | [`mergeTwoSortedLinkedList`](./linked-list/easy/merge-two-sorted-lists/README.md) | easy 
-
+| 001         | Middle of linked list    | [`middleNode`](./linked-list/easy/middle-of-linked-list/README.md) | Easy 
+| 002         | Add two numbers    | [`addTwoLinkedListNumber`](./linked-list/medium/add-two-numbers/README.md) | Medium 
+| 003         | Merge two sorted List    | [`mergeTwoSortedLinkedList`](./linked-list/easy/merge-two-sorted-lists/README.md) | Easy 
+| 004         | Delete Duplicates    | [`deleteDuplicates`](./linked-list/easy/remove-duplicates/README.md) | Easy 
 
 
 ## Cheatsheet

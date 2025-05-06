@@ -7,7 +7,7 @@ const problems = {
     medianOfTwoSortedArrayMergeSort: require('./array/hard/median-of-two-sorted-array/useMergeOfMergeSort'),
     romanToInteger: require('./math/easy/roman-to-integer/solution'),
     plusOne: require('./math/easy/plus-one/solution'),
-    squareroot: require('./math/easy/square-root/solution'),
+    squareRoot: require('./math/easy/square-root/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
@@ -33,7 +33,8 @@ const problems = {
     // linked list
     middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),
     addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution'),
-    mergeTwoSortedLinkedList: require('./linked-list/easy/merge-two-sorted-lists/solution')
+    mergeTwoSortedLinkedList: require('./linked-list/easy/merge-two-sorted-lists/solution'),
+    deleteDuplicates: require('./linked-list/easy/remove-duplicates/solution')
   };
   
 const key = process.argv[2];
