@@ -8,6 +8,7 @@ const problems = {
     romanToInteger: require('./math/easy/roman-to-integer/solution'),
     plusOne: require('./math/easy/plus-one/solution'),
     squareRoot: require('./math/easy/square-root/solution'),
+    fibbonacciNumber: require('./math/easy/fibbonacci-nth-number/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),

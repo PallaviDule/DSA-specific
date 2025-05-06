@@ -52,6 +52,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
 |005	      | Plus One	| [`plusOne`](./math/easy/plus-one/README.md)	|Easy (array)
 |006        | Square root 	| [`squareRoot`](./math/easy/square-root/README.md)	|Easy (array, binary search)
+|007        | Fibbonacci Number 	| [`fibbonacciNumber`](./math/easy/fibbonacci-nth-number/README.md)	|Easy
 
 ### Array
 
