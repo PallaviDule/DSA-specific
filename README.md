@@ -35,9 +35,9 @@ Great point — here's an improved version of the table with a note in the **"Re
     - **Directly run any `.js` file** with Node.js to test the solution:
         - Example: `node array/easy/001-two-sum/solution.js`
     - **Run using the central `index.js`** to easily execute problems by their keys:
-        - Run the following command with the desired **problem key**:`node index.js ${problemKey}`
+        - Run the following command with the desired **problem key**:`node index.js ${problemKey}` or `npm start ${problemKey}`
             - You can find the **problem key** for each problem in the main table.
-            - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum`
+            - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
 ## 24 Sample Problems (Grouped by Category)

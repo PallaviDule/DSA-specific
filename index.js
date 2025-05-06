@@ -7,6 +7,7 @@ const problems = {
     medianOfTwoSortedArrayMergeSort: require('./array/hard/median-of-two-sorted-array/useMergeOfMergeSort'),
     romanToInteger: require('./math/easy/roman-to-integer/solution'),
     plusOne: require('./math/easy/plus-one/solution'),
+    squareroot: require('./math/easy/square-root/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
