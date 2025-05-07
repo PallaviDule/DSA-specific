@@ -40,19 +40,20 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 26 Sample Problems (Grouped by Category)
+## 28 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
 | Problem No. | Title         | Path/ProblemKey                                           | Difficulty |
 |-------------|---------------|------------------------------------------------|------------|
-|001         | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
+|001          | Fizz Buzz     | [`fizzBuzz`](./math/easy/fizz-buzz/README.md)     | Easy       |
 |002	      | Number of Steps to Reduce a Number to Zero	| [`numberOfSteps`](./math/easy/number-of-steps-to-reduce-number/README.md) |Easy
-|003	      | Palindrome	| [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
+|003	      | Palindrome	  | [`palindromeNumber`](./math/easy/palindrome-number/README.md)	|Easy
 |004	      | Roman to Integer	| [`romanToInteger`](./math/easy/roman-to-integer/README.md)	|Easy
-|005	      | Plus One	| [`plusOne`](./math/easy/plus-one/README.md)	|Easy (array)
-|006        | Square root 	| [`squareRoot`](./math/easy/square-root/README.md)	|Easy (array, binary search)
-|007        | Fibbonacci Number 	| [`fibbonacciNumber`](./math/easy/fibbonacci-nth-number/README.md)	|Easy
+|005	      | Plus One	  | [`plusOne`](./math/easy/plus-one/README.md)	|Easy (array)
+|006          | Square root   | [`squareRoot`](./math/easy/square-root/README.md)	|Easy (array, binary search)
+|007          | Fibbonacci Number 	| [`fibbonacciNumber`](./math/easy/fibbonacci-nth-number/README.md)	|Easy (Dynamic Programming, Recursion, Memoization)
+|008          | Climb stairs  | [`climbStairs`]()   | Easy (Dynamic Programming, Memoization)
 
 ### Array
 
