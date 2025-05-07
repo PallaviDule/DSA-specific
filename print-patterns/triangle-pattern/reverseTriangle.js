@@ -2,7 +2,7 @@
 // 2 1      i=1
 // 3 2 1    i=2
 const triangle1 = (n) => {
-    console.log('------------ Print number 1,12,123 pattern----------')
+    console.log('------------ Print number 1,21,321 pattern----------')
     for(let i=0; i<n; i++){
         let pattern = '';
         for(let j=i; j>=0; j--) {
@@ -18,7 +18,7 @@ triangle1(3);
 // B A      i=1
 // C B A    i=2
 const triangle2 = (n) => {
-    console.log('------------ Print number 1,12,123 pattern----------');
+    console.log('------------ Print number A, BA, CBA pattern----------');
     let charCode = 'A'.charCodeAt();
     for(let i=0; i<n; i++){
         let pattern = '';
