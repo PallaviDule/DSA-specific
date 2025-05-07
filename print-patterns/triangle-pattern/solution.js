@@ -37,8 +37,8 @@ const triangle3 = (n) => {
     console.log('------------ Print number 1,12,123 pattern----------')
     for(let i=0; i<=n; i++){
         let pattern = '';
-        for(let j=0; j<=i; j++) {
-            pattern += j+1; 
+        for(let j=1; j<=i; j++) {
+            pattern += j; 
         }
 
         console.log(pattern);
@@ -46,12 +46,30 @@ const triangle3 = (n) => {
 }
 triangle3(3);
 
+
+// 1
+// 2 3
+// 4 5 6
+const triangle4 = (n) => {
+    console.log('------------ Print number 1,23,456 pattern----------');
+    let num = 1;
+    for(let i=0; i<=n; i++){
+        let pattern = '';
+        for(let j=1; j<=i; j++) {
+            pattern += num++; 
+        }
+
+        console.log(pattern);
+    }
+}
+triangle4(3);
+
 // A
 // A B
 // A B C
 // A B C D
 // let charCode = 65;  // 'A'.charCodeAt(0); = 65
-const triangle4 = (n) => {    
+const triangle5 = (n) => {    
     console.log('------------ Print number A,AB,ABC pattern----------')
     for(let i=0; i<n; i++){
         let pattern = ''; 
@@ -63,9 +81,12 @@ const triangle4 = (n) => {
         console.log(pattern);
     }
 }
-triangle4(3);
+triangle5(3);
 
-const triangle5 = (n) => {    
+// A 
+// B C 
+// D E F 
+const triangle6 = (n) => {    
     let charCode = 65;
     console.log('------------ Print number A,BC,DEF pattern----------')
     for(let i=0; i<n; i++){
@@ -77,4 +98,4 @@ const triangle5 = (n) => {
         console.log(pattern);
     }
 }
-triangle5(3);
+triangle6(3);
