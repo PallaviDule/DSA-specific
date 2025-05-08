@@ -17,6 +17,7 @@ const problems = {
     removeDuplicatesFromSortedArray: require('./array/easy/remove-duplicates-from-sorted-arrays/solution'),
     removeElement: require('./array/easy/remove-element/solution'),
     searchInsertIndex: require('./array/easy/search-insert-position/solution'),
+    mergeTwoSortedArray: require('./array/easy/merge-sorted-arrays/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
