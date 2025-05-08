@@ -19,6 +19,7 @@ const problems = {
     searchInsertIndex: require('./array/easy/search-insert-position/solution'),
     mergeTwoSortedArray: require('./array/easy/merge-sorted-arrays/solution'),
     generatePascalTriangle: require('./array/easy/pascal-triangle/solution'),
+    nthRowOfPascalTriangle: require('./array/easy/pascal-triangle-II/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
