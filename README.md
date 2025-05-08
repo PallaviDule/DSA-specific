@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 28 Sample Problems (Grouped by Category)
+## 29 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -66,6 +66,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |005| Median of Two Sorted Arrays|[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)| hard
 |006	      | Remove Duplicate from sorted arrays	| [`removeDuplicates`](./array/easy/remove-duplicates-from-sorted-arrays/README.md)	|Easy (two pointer)
 |007	      | Remove Element from array	| [`removeElement`](./array/easy/remove-element/README.md)	|Easy (two pointer)
+|008	      | Merge two sorted array	| [`mergeTwoSortedArray`](./array/easy/merge-sorted-arrays/README.md)	|Easy (two pointer, sorting)
 
 
 ### Map
