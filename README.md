@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 30 Sample Problems (Grouped by Category)
+## 31 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -68,7 +68,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |007	      | Remove Element from array	| [`removeElement`](./array/easy/remove-element/README.md)	|Easy (two pointer)
 |008	      | Merge two sorted array	| [`mergeTwoSortedArray`](./array/easy/merge-sorted-arrays/README.md)	|Easy (two pointer, sorting)
 |009	      | Pascal Triangle	| [`generatePascalTriangle`](./array/easy/pascal-triangle/README.md)	|Easy (Dynamic Programming)
-
+|009	      | Pascal Triangle	II | [`nthRowOfPascalTriangle`](./array/easy/pascal-triangle-II/README.md)	|Easy (Dynamic Programming)
 
 ### Map
 
