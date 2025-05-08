@@ -10,6 +10,7 @@ const problems = {
     squareRoot: require('./math/easy/square-root/solution'),
     fibbonacciNumber: require('./math/easy/fibbonacci-nth-number/solution'),
     climbStairs: require('./math/easy/climb-stairs/solution'),
+    sumOfDigits: require('./math/easy/sum-of-digits/solution'),
     // array
     twoSum: require('./array/001-two-sum/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
