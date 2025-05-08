@@ -21,6 +21,7 @@ const problems = {
     mergeTwoSortedArray: require('./array/easy/merge-sorted-arrays/solution'),
     generatePascalTriangle: require('./array/easy/pascal-triangle/solution'),
     nthRowOfPascalTriangle: require('./array/easy/pascal-triangle-II/solution'),
+    bestTimeToSellStock: require('./array/easy/best-time-to-sell-stocks/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
