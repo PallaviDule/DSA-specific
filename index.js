@@ -42,7 +42,11 @@ const problems = {
     middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),
     addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution'),
     mergeTwoSortedLinkedList: require('./linked-list/easy/merge-two-sorted-lists/solution'),
-    deleteDuplicates: require('./linked-list/easy/remove-duplicates/solution')
+    deleteDuplicates: require('./linked-list/easy/remove-duplicates/solution'),
+
+    //binary
+    decimalToBinary: require('./binary/easy/decimal-to-binary/solution'),
+    binaryToDecimal: require('./binary/easy/binary-to-decimal/solution')
   };
   
 const key = process.argv[2];
