@@ -73,3 +73,9 @@ Total = 1 + 0 + 4 + 8 + 0 + 32 = 45
 ## Time and Space Complexity  
 - **Time Complexity:** O(log₁₀N) — The number of digits in the input number  
 - **Space Complexity:** O(1) — Only uses constant extra space  
+
+
+## Math logic
+1.    1           0       1       1       0       1
+    2^5=32    2^4=16   2^3=8   2^2=4  2^1=2   2^0=1     
+2. last digit decide if number is odd or even;
