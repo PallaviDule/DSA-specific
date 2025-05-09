@@ -15,6 +15,25 @@ var twoSum2 = function(numbers, target) {
     } 
 };
 
+// using binary search
+var twoSum1 = function(numbers, target) {
+    if(!numbers) return [];
+    for(let i=0; i<numbers.length; i++){
+        let compliment = target - numbers[i];
+        let start = i+1;
+        let end = numbers.length-1;
+        while(start <= end){
+                // console.log('start:', start, ', end:', end, ', numbers[start]:', numbers[start], ', numbers[end]:', numbers[end]);
+                let mid = Math.floor((start+end)/2);
+
+                if(numbers[mid] === compliment) return [i+1, mid+1];
+                if(numbers[mid] > compliment) end=mid-1
+                else start=mid+1;
+        }
+    }
+};
+
+// two pointers
 var twoSum = function(numbers, target) {
     console.log('----------------------------------------------------------------------');
     console.log('input array:', numbers, ', target:', target);
