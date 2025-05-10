@@ -30,6 +30,7 @@ const problems = {
     containerWithMostWater: require('./array/medium/container-with-most-water/solution'),
     intersectionOfTwoArrays: require('./array/easy/intersection-of-two-arrays/solution'),
     moveZeros: require('./array/easy/move-zeros/solution'),
+    maxSumOfSubArray: require('./array/medium/max-sum-of-subarray/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
