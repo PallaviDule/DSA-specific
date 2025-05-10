@@ -11,8 +11,12 @@ const problems = {
     fibbonacciNumber: require('./math/easy/fibbonacci-nth-number/solution'),
     climbStairs: require('./math/easy/climb-stairs/solution'),
     sumOfDigits: require('./math/easy/sum-of-digits/solution'),
+    reverseNumber: require('./math/easy/reverse-number/solution'),
     // array
-    twoSum: require('./array/001-two-sum/solution'),
+    reverseArray: require('./array/basic-array/reverse-array/solution'),
+    sumAndProduct: require('./array/basic-array/sum-product-of-array'),
+    swapMinMax: require('./array/basic-array/swap-max-min'),
+    twoSum: require('./array/easy/001-two-sum/solution'),
     twoSumII: require('./array/medium/two-sum-II/solution'),
     richestCustomerWealth: require('./array/easy/richest-customer-wealth/solution'),
     sumOf1dArray: require('./array/easy/sum-of-1d-array/solution'),
@@ -56,7 +60,7 @@ const problems = {
 const key = process.argv[2];
   
 console.log('Your are running: ', key);
-console.log('-----------------------------');
+console.log('-------------------------------------------------------------------');
 if (key && problems[key]) {
 problems[key].run();
 } else {

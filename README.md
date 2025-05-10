@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 33 Sample Problems (Grouped by Category)
+## 35 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -72,6 +72,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |009	      | Pascal Triangle	II                  | [`nthRowOfPascalTriangle`](./array/easy/pascal-triangle-II/README.md)	                            |Easy (Dynamic Programming)
 |010	      | Best time to sell stock             | [`bestTimeToSellStock`](./array/easy/best-time-to-sell-stocks/README.md)	                        |Easy (Dynamic Programming)
 |011          | Two Sum II                          | [`twoSumII`](./array/medium/two-sum-II/README.md)                                                 |Medium (two pointer, binary search)
+|012          | Container With Most Water           | [`containerWithMostWater`](./array/medium/container-with-most-water/README.md)                    |Medium (two pointer, two pointers, greedy)
 
 ### Map
 
