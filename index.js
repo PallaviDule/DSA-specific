@@ -46,7 +46,10 @@ const problems = {
 
     //binary
     decimalToBinary: require('./binary/easy/decimal-to-binary/solution'),
-    binaryToDecimal: require('./binary/easy/binary-to-decimal/solution')
+    binaryToDecimal: require('./binary/easy/binary-to-decimal/solution'),
+
+    //bitwise operators
+    useBitwiseOperators: require('./bitwise-operator/solution')
   };
   
 const key = process.argv[2];
