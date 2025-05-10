@@ -13,7 +13,7 @@ const problems = {
     sumOfDigits: require('./math/easy/sum-of-digits/solution'),
     reverseNumber: require('./math/easy/reverse-number/solution'),
     // array
-    reverseArray: require('./array/basic-array/reverse-array/solution'),
+    reverseArray: require('./array/basic-array/reverse-array'),
     sumAndProduct: require('./array/basic-array/sum-product-of-array'),
     swapMinMax: require('./array/basic-array/swap-max-min'),
     twoSum: require('./array/easy/001-two-sum/solution'),
@@ -28,6 +28,8 @@ const problems = {
     nthRowOfPascalTriangle: require('./array/easy/pascal-triangle-II/solution'),
     bestTimeToSellStock: require('./array/easy/best-time-to-sell-stocks/solution'),
     containerWithMostWater: require('./array/medium/container-with-most-water/solution'),
+    intersectionOfTwoArrays: require('./array/easy/intersection-of-two-arrays/solution'),
+    moveZeros: require('./array/easy/move-zeros/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
