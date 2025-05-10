@@ -23,6 +23,7 @@ const problems = {
     generatePascalTriangle: require('./array/easy/pascal-triangle/solution'),
     nthRowOfPascalTriangle: require('./array/easy/pascal-triangle-II/solution'),
     bestTimeToSellStock: require('./array/easy/best-time-to-sell-stocks/solution'),
+    containerWithMostWater: require('./array/medium/container-with-most-water/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
