@@ -76,6 +76,27 @@ Total = 1 + 0 + 4 + 8 + 0 + 32 = 45
 
 
 ## Math logic
-1.    1           0       1       1       0       1
-    2^5=32    2^4=16   2^3=8   2^2=4  2^1=2   2^0=1     
+1. Math(right to left)
+    ``` 
+     1           0       1       1       0       1
+    2^5=32    2^4=16   2^3=8   2^2=4  2^1=2   2^0=1 
+    ```    
 2. last digit decide if number is odd or even;
+3. Manual Paper-Style Breakdown :  
+    Convert binary `101101` to decimal using powers of 2:
+
+    ```
+    Start from the rightmost digit (least significant bit):
+
+    1 × 2⁰ = 1  
+    0 × 2¹ = 0  
+    1 × 2² = 4  
+    1 × 2³ = 8  
+    0 × 2⁴ = 0  
+    1 × 2⁵ = 32  
+
+    Now sum them up:
+    32 + 0 + 8 + 4 + 0 + 1 = 45
+    ```
+
+    So, `101101` (binary) = `45` (decimal)
