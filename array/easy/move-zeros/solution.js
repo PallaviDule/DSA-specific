@@ -2,6 +2,11 @@
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
+
+
+// Why this works:
+// - You're placing each non-zero value at the *next available* index (`lastNonZeroIndex`) and pushing zeroes behind.
+// - If `i === lastNonZeroIndex`, the swap is harmless — it's just replacing the number with itself.
 var moveZeroes = function(nums) {
     let lastIndex=0;
 
