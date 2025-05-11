@@ -31,6 +31,7 @@ const problems = {
     intersectionOfTwoArrays: require('./array/easy/intersection-of-two-arrays/solution'),
     moveZeros: require('./array/easy/move-zeros/solution'),
     maxSumOfSubArray: require('./array/medium/max-sum-of-subarray/solution'),
+    majorityElement: require('./array/easy/majority-element/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
