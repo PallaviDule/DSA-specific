@@ -39,12 +39,6 @@
     - If your current sum goes negative, **restart**
     - It runs in **O(n)** time with **O(1)** space
 
-
-
-## Got it. Let me explain the **Boyer-Moore Voting Algorithm** in a **generic**, conceptual way — not tied to a specific array example.
-
----
-
 ## Boyer-Moore Voting Algorithm
 
 To **identify the majority element** — one that appears more than half the time in a list of elements.
@@ -75,9 +69,7 @@ To **identify the majority element** — one that appears more than half the tim
     Since the majority element has a net advantage, it will be the last one left with count > 0 after all cancellations.
 
 - ### Why It Works
-
     Imagine this:
-
     * The majority element occurs `> n/2` times.
     * Every time we reduce `count`, it's because we matched it against a different element.
     * The maximum number of such mismatches is `< n/2` (because others are in the minority).
@@ -86,15 +78,12 @@ To **identify the majority element** — one that appears more than half the tim
     It’s like pairing off each majority occurrence with a minority occurrence. Since majority > minority, something from the majority will remain unmatched.
 
 - ### Time and Space Complexity
-
     * **Time**: O(n) → One linear pass
     * **Space**: O(1) → Only two variables
 
 
 - ### When to Use
-
     Use Boyer-Moore Voting Algorithm when:
-
     * You are **guaranteed that a majority element exists**
     * You want a **space-efficient** (constant space) and **fast** (linear time) solution
     * You need to avoid maps, sorting, or extra arrays
