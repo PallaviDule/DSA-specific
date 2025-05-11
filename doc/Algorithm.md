@@ -38,3 +38,63 @@
     - It tracks **current local sum** and **max global sum**
     - If your current sum goes negative, **restart**
     - It runs in **O(n)** time with **O(1)** space
+
+
+
+## Got it. Let me explain the **Boyer-Moore Voting Algorithm** in a **generic**, conceptual way — not tied to a specific array example.
+
+---
+
+## Boyer-Moore Voting Algorithm
+
+To **identify the majority element** — one that appears more than half the time in a list of elements.
+
+- ### Core Intuition
+
+    Let’s imagine each element in the array is a "vote" for a candidate. The **majority element has more than 50% of the total votes**, so **even if every other element votes against it**, it **cannot be defeated**.
+
+    So instead of counting frequency of all elements, we:
+
+    * Assume one candidate
+    * Increase its count when we see support
+    * Decrease count when we see opposition
+    * Reset candidate when our current one is weakened to zero
+
+    Over time, since the majority element appears more than all others combined, it survives all cancellations.
+
+- ### Core Logic
+    We use two variables:
+    * `candidate` → our current guess for majority element
+    * `count` → how many votes it has left
+
+    We iterate through the array and apply rules:
+    1. **If count is 0**, we **choose a new candidate** (we reset our belief).
+    2. **If current element == candidate**, we **increase the vote**.
+    3. **If current element ≠ candidate**, we **decrease the vote** (a vote against).
+
+    Since the majority element has a net advantage, it will be the last one left with count > 0 after all cancellations.
+
+- ### Why It Works
+
+    Imagine this:
+
+    * The majority element occurs `> n/2` times.
+    * Every time we reduce `count`, it's because we matched it against a different element.
+    * The maximum number of such mismatches is `< n/2` (because others are in the minority).
+    * So **after all cancel-outs, the majority element must survive**.
+
+    It’s like pairing off each majority occurrence with a minority occurrence. Since majority > minority, something from the majority will remain unmatched.
+
+- ### Time and Space Complexity
+
+    * **Time**: O(n) → One linear pass
+    * **Space**: O(1) → Only two variables
+
+
+- ### When to Use
+
+    Use Boyer-Moore Voting Algorithm when:
+
+    * You are **guaranteed that a majority element exists**
+    * You want a **space-efficient** (constant space) and **fast** (linear time) solution
+    * You need to avoid maps, sorting, or extra arrays
