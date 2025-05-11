@@ -1,4 +1,14 @@
-function twoSum(nums, target) {
+// brute
+function twoSum (arr) {
+    for(let i=0; i<arr.length; i++){
+        for(let j=i+1; j<arr.length; i++){
+            if(arr[i]+arr[j]) return [i, j]; //if numbers then [arr[i], arr[j]]
+                
+        }
+    }
+}
+
+function twoSum1(nums, target) {
     let map = new Map();
 
     // Iterate over nums using for() with entries to get both index (i) and number (num)
