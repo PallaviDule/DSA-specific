@@ -17,6 +17,10 @@ Understanding time and space complexity helps in analyzing the efficiency of alg
 | O(2^n)     | Exponential       | Recursive Fibonacci                  |
 | O(n!)      | Factorial         | Permutations                         |
 
+ - ### O(n^2) 
+    -  double nested loop - 
+    - examples: bubble sort or selection sort
+    - (n + (n-1) + (n-2) .... + (n-(n-1)))/ 2 = (n*(n+1))/2 = n^2
 
 
 ## Space Complexity

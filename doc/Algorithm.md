@@ -87,3 +87,217 @@ To **identify the majority element** — one that appears more than half the tim
     * You are **guaranteed that a majority element exists**
     * You want a **space-efficient** (constant space) and **fast** (linear time) solution
     * You need to avoid maps, sorting, or extra arrays
+
+
+## Sorting Algorithm
+These algorithms are used to arrange data in a particular order, either ascending or descending. Sorting is one of the most fundamental tasks in computer science, and various algorithms offer different trade-offs in terms of performance.
+
+### 1. **Bubble Sort**
+
+- **When to use**: Not efficient for large datasets, but simple to understand and implement.
+- **One-line Explanation**: Repeatedly swap adjacent elements if they are in the wrong order.
+- **Code Example**:
+    ```javascript
+    const bubbleSort = (arr) => {
+    let n = arr.length;
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n - 1 - i; j++) {
+        if (arr[j] > arr[j + 1]) {
+            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // Swap
+        }
+        }
+    }
+    return arr;
+    };
+
+    console.log(bubbleSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+    ```
+
+- **Time Complexity**:
+    * Worst: O(n²)
+    * Best: O(n) (if the array is already sorted)
+
+- **Space Complexity**: O(1) (In-place)
+
+### 2. **Selection Sort**
+- **When to use**: Suitable for small datasets; not efficient for large datasets.
+- **One-line Explanation**: Find the smallest (or largest) element from the unsorted portion of the array and swap it with the first unsorted element.
+- **Code Example**:
+    ```javascript
+    const selectionSort = (arr) => {
+    let n = arr.length;
+    for (let i = 0; i < n - 1; i++) {
+        let minIdx = i;
+        for (let j = i + 1; j < n; j++) {
+        if (arr[j] < arr[minIdx]) {
+            minIdx = j;
+        }
+        }
+        [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]]; // Swap
+    }
+    return arr;
+    };
+
+    console.log(selectionSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+    ```
+
+- **Time Complexity**:
+
+    * Worst: O(n²)
+    * Best: O(n²)
+
+- **Space Complexity**: O(1) (In-place)
+
+
+### 3. **Insertion Sort**
+- **When to use**: Efficient for small datasets or nearly sorted arrays.
+- **One-line Explanation**: Build the sorted array one item at a time by repeatedly inserting the next element into the correct position.
+- **Code Example**:
+
+    ```javascript
+    const insertionSort = (arr) => {
+    let n = arr.length;
+    for (let i = 1; i < n; i++) {
+        let key = arr[i];
+        let j = i - 1;
+        while (j >= 0 && arr[j] > key) {
+        arr[j + 1] = arr[j];
+        j--;
+        }
+        arr[j + 1] = key;
+    }
+    return arr;
+    };
+
+    console.log(insertionSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+    ```
+
+- **Time Complexity**:
+    * Worst: O(n²)
+    * Best: O(n) (if the array is already sorted)
+
+- **Space Complexity**: O(1) (In-place)
+
+### 4. **Merge Sort** (Divide & Conquer)
+- **When to use**: Efficient for large datasets; provides consistent O(n log n) performance.
+- **One-line Explanation**: Split the array into halves, recursively sort each half, and merge them back together.
+
+**Code Example**:
+
+```javascript
+const merge = (left, right) => {
+  let result = [], i = 0, j = 0;
+  while (i < left.length && j < right.length) {
+    if (left[i] < right[j]) result.push(left[i++]);
+    else result.push(right[j++]);
+  }
+  return result.concat(left.slice(i), right.slice(j));
+};
+const mergeSort = (arr) => {
+  if (arr.length <= 1) return arr;
+
+  const mid = Math.floor(arr.length / 2);
+  const left = mergeSort(arr.slice(0, mid));
+  const right = mergeSort(arr.slice(mid));
+
+  return merge(left, right);
+};
+
+console.log(mergeSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+```
+
+- **Time Complexity**:
+    * Worst: O(n log n)
+    * Best: O(n log n)
+
+- **Space Complexity**: O(n) (Auxiliary space)
+
+### 5. **Quick Sort** (Divide & Conquer)
+
+- **When to use**: Efficient for large datasets with an average time complexity of O(n log n).
+
+- **One-line Explanation**: Pick a pivot, partition the array around it, then recursively sort the subarrays.
+
+- **Code Example**:
+    ```javascript
+    const quickSort = (arr) => {
+    if (arr.length <= 1) return arr;
+
+    let pivot = arr[arr.length - 1];
+    let left = [], right = [];
+    for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] < pivot) left.push(arr[i]);
+        else right.push(arr[i]);
+    }
+    return [...quickSort(left), pivot, ...quickSort(right)];
+    };
+
+    console.log(quickSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+    ```
+
+- **Time Complexity**:
+    * Worst: O(n²)
+    * Best: O(n log n)
+
+- **Space Complexity**: O(log n) (in-place, recursive)
+
+### 6. **Heap Sort**
+
+- **When to use**: Ideal for cases where constant time access to the largest/smallest element is required.
+
+- **One-line Explanation**: Use a binary heap data structure to iteratively build the sorted array.
+
+- **Code Example**:
+
+    ```javascript
+    const heapify = (arr, n, i) => {
+    let largest = i;
+    let left = 2 * i + 1;
+    let right = 2 * i + 2;
+
+    if (left < n && arr[left] > arr[largest]) largest = left;
+    if (right < n && arr[right] > arr[largest]) largest = right;
+
+    if (largest !== i) {
+        [arr[i], arr[largest]] = [arr[largest], arr[i]]; // Swap
+        heapify(arr, n, largest);
+    }
+    };
+
+    const heapSort = (arr) => {
+    let n = arr.length;
+
+    // Build max heap
+    for (let i = Math.floor(n / 2) - 1; i >= 0; i--) {
+        heapify(arr, n, i);
+    }
+
+    // Extract elements from heap one by one
+    for (let i = n - 1; i > 0; i--) {
+        [arr[0], arr[i]] = [arr[i], arr[0]]; // Swap
+        heapify(arr, i, 0);
+    }
+
+    return arr;
+    };
+
+    console.log(heapSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
+    ```
+
+- **Time Complexity**:
+
+    * Worst: O(n log n)
+    * Best: O(n log n)
+
+- **Space Complexity**: O(1) (in-place)
+
+### 7. Summary of Sorting Algorithms
+
+| Algorithm      | Time Complexity (Worst) | Time Complexity (Best) | Space Complexity |
+| -------------- | ----------------------- | ---------------------- | ---------------- |
+| Bubble Sort    | O(n²)                   | O(n)                   | O(1)             |
+| Selection Sort | O(n²)                   | O(n²)                  | O(1)             |
+| Insertion Sort | O(n²)                   | O(n)                   | O(1)             |
+| Merge Sort     | O(n log n)              | O(n log n)             | O(n)             |
+| Quick Sort     | O(n²)                   | O(n log n)             | O(log n)         |
+| Heap Sort      | O(n log n)              | O(n log n)             | O(1)             |
