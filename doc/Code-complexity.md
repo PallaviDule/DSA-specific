@@ -3,6 +3,9 @@
 Understanding time and space complexity helps in analyzing the efficiency of algorithms. Here's a quick reference:
 
 ## Time Complexity
+- Not actual time taken
+- Amount of time taken as a function of input size(n). 
+- How many operations are being performed in function.
 
 | Complexity | Name              | Example                              |
 |--          |---                |--                                    |

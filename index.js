@@ -1,5 +1,6 @@
 const problems = {
     // math/basic algorithm
+    isPrimeNumber: require('./math/basic/is-prime-number/solution'),
     fizzBuzz: require('./math/easy/fizz-buzz/solution'),
     numberOfSteps: require('./math/easy/number-of-steps-to-reduce-number/solution'),
     palindromeNumber: require('./math/easy/palindrome-number/solution'),
