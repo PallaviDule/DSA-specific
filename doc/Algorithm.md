@@ -301,3 +301,51 @@ console.log(mergeSort([5, 3, 8, 4, 2])); // [2, 3, 4, 5, 8]
 | Merge Sort     | O(n log n)              | O(n log n)             | O(n)             |
 | Quick Sort     | O(n²)                   | O(n log n)             | O(log n)         |
 | Heap Sort      | O(n log n)              | O(n log n)             | O(1)             |
+
+
+## Sieve of Eratosthenes
+The **Sieve of Eratosthenes** is a classic and efficient algorithm used to find **all prime numbers up to a given number `n`**.
+
+- ### What does it solve?
+    It identifies all **prime numbers** less than or equal to a given number `n`.
+- ### When to use it?
+    * When you need **all primes ≤ n**
+    * When `n` is large (e.g., up to 10⁶ or more) and you want better performance than checking each number individually.
+- ### One-line explanation
+    It marks multiples of each prime starting from 2, so that only primes remain unmarked.
+- ### Intuition
+    * Every composite number can be written as a multiple of a smaller prime.
+    * So, by marking all multiples of each prime, we eliminate all composites.
+- ### How it works (Steps)
+
+    1. Create a boolean array `isPrime[0...n]` and initialize all entries as `true` (except 0 and 1).
+    2. Starting from `i = 2`, mark all multiples of `i` as `false`.
+    3. Move to the next number that is still `true` and repeat step 2.
+    4. Continue up to `√n`, since higher multiples would already have been marked.
+    5. The remaining `true` values are prime numbers.
+- ### Basic Code Example
+    ```js
+    function sieve(n) {
+        let isPrime = new Array(n + 1).fill(true);
+        isPrime[0] = isPrime[1] = false;
+
+        for (let i = 2; i * i <= n; i++) {
+            if (isPrime[i]) {
+                for (let j = i * i; j <= n; j += i) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+
+        return isPrime.map((val, idx) => val ? idx : -1).filter(x => x !== -1);
+    }
+    ```
+- ### Time and Space Complexity
+    * **Time:** `O(n log log n)`    
+        Each prime i crosses out approximately n/i numbers. The sum of all these operations over all primes ≤ n results in O(n log log n).
+        - Let's break it down:  
+            - n is the size of the input.     
+            - log log n is the logarithm of the logarithm of n — it grows very, very slowly.
+        - O(n log log n) is much faster for large n because log(log n) grows so slowly.
+    * **Space:** `O(n)`
+

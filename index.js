@@ -14,6 +14,7 @@ const problems = {
     sumOfDigits: require('./math/easy/sum-of-digits/solution'),
     reverseNumber: require('./math/easy/reverse-number/solution'),
     xRaisedToPowerN: require('./math/medium/power-n-of-x/solution'),
+    countPrimes: require('./math/medium/count-primes/solution'),
     // array
     reverseArray: require('./array/basic-array/reverse-array'),
     sumAndProduct: require('./array/basic-array/sum-product-of-array'),

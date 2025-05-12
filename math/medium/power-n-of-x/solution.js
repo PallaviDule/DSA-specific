@@ -32,7 +32,7 @@ var myPow = function(x, n) {
         x = 1/x
     }
     
-    // if x=2, n=10 => 1010 in binary
+    // if x=2, n=10 => 1010 in binary => here, only add value when it is 1 in binary number, else increase the number.
     while (n > 0) {
         if(n%2===1){ // If it is 1, then only it should be added to result
             result *= x; // 
