@@ -13,6 +13,7 @@ const problems = {
     climbStairs: require('./math/easy/climb-stairs/solution'),
     sumOfDigits: require('./math/easy/sum-of-digits/solution'),
     reverseNumber: require('./math/easy/reverse-number/solution'),
+    xRaisedToPowerN: require('./math/medium/power-n-of-x/solution'),
     // array
     reverseArray: require('./array/basic-array/reverse-array'),
     sumAndProduct: require('./array/basic-array/sum-product-of-array'),

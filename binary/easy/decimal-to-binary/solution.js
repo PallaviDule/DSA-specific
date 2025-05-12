@@ -12,6 +12,22 @@ const decimalToBinary1 = (num) => {
     return result;
 }
 // binary number goes from bottom to top (reverse order), so we cannot just continue to add in sum;
+    const decimalToBinary2 = (num) =>{
+        console.log('Num:', num); // 42
+        let result=0;
+        let power=1; // 10power0
+
+        while(num>0){ //42 //21 // 10
+            let remainder = num%2; // 0 ; 1; 1; 
+            let quotient = Math.floor(num/2); // 21 ; 10;
+            console.log('remainder:', remainder);
+            result += remainder*power; // 0+0*1=0  ; 0+1*10=10; 10+(1*100)
+            power *=10; // 10 //100
+            num = quotient;
+        }
+        return result;
+    }
+
     const decimalToBinary = (num) =>{
         console.log('Num:', num); // 42
         let result=0;
