@@ -35,6 +35,8 @@ const problems = {
     moveZeros: require('./array/easy/move-zeros/solution'),
     maxSumOfSubArray: require('./array/medium/max-sum-of-subarray/solution'),
     majorityElement: require('./array/easy/majority-element/solution'),
+    productExceptSelf: require('./array/medium/product-except-self/solution'),
+    searchInRotatedSortedArray: require('./array/medium/search-in-rotated-sorted-array/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set

@@ -85,8 +85,9 @@ var productExceptSelf4 = function(nums) { // [1,2,3,4]
     }
     
     // console.log('result:', result);
-    for(let i=nums.length-2; i>=0; i--){  // 3\2
-         result[i] = result[i+1]*nums[i+1]; // [1,1,1,1]
+    for(let i=nums.length-1; i>=0; i--){  // 3
+        result[i] *= suffix; // [1,1,1,1]
+        suffix *= nums[i]; //[1*4]
     }
 
     return result;
@@ -95,5 +96,5 @@ var productExceptSelf4 = function(nums) { // [1,2,3,4]
 
 export function run(){
     console.log('Result:', productExceptSelf([1,2,3,4])); // [24,12,8,6]
-    console.log('Result:', productExceptSelf([-1,1,0,-3,3])); // [24,12,8,6]
+    console.log('Result:', productExceptSelf([-1,1,0,-3,3])); // [0,0,9,0,0]
 }
