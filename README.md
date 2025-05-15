@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 45 Sample Problems (Grouped by Category)
+## 46 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -79,7 +79,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |013          | Intersection of two arrays          | [`intersectionOfTwoArrays`](./array/easy/intersection-of-two-arrays/README.md)                    |Easy
 |013          | Move Zeros                          | [`moveZeros`](./array/easy/move-zeros/README.md)                                                  |Easy (two pointer)
 |014          | Max Sum Of Sub Array                | [`maxSumOfSubArray`](./array/medium/max-sum-of-subarray/README.md)                                |Medium (two pointer)
-|015          | Majority Element                    | [`moveZeros`](./array/easy//majority-element/README.md)                                           |Easty (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
+|015          | Majority Element                    | [`moveZeros`](./array/easy//majority-element/README.md)                                           |Easy (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
+|016          | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
 
 ### Map
 
