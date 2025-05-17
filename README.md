@@ -81,6 +81,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |014          | Max Sum Of Sub Array                | [`maxSumOfSubArray`](./array/medium/max-sum-of-subarray/README.md)                                |Medium (two pointer)
 |015          | Majority Element                    | [`moveZeros`](./array/easy//majority-element/README.md)                                           |Easy (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
 |016          | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
+|017          | Peak Index In Mountain Array     | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/solution.js )            |Medium (Binary Search)
 
 ### Map
 
