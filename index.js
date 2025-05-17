@@ -38,6 +38,7 @@ const problems = {
     productExceptSelf: require('./array/medium/product-except-self/solution'),
     searchInRotatedSortedArray: require('./array/medium/search-in-rotated-sorted-array/solution'),
     peakIndexInMountainArray: require('./array/medium/peak-index-in-mountain-array/solution'),
+    singleNonDuplicate: require('./array/medium/single-element-in-sorted-array/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set

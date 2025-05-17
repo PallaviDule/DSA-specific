@@ -63,7 +63,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 | Problem No. | Title                               | Path/Problem Key | Difficulty
 |-------------|-------------------------------------|------------------| -----
-| 001         | Two Sum                             | [`twoSum`](./array/001-two-sum/README.md)                                                         |Easy
+| 001         | Two Sum                             | [`twoSum`](./array/easy/001-two-sum/README.md)                                                         |Easy
 | 002         | Richest customer wealth             | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md)                         |Easy
 |003          | Sum of 1-D array                    |[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)                                           |Easy
 |004          | Median of Two Sorted Arrays         |[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)                      |Hard
@@ -83,6 +83,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |016          | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
 |017          | Peak Index In Mountain Array        | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/README.md)            |Medium (Binary Search)
 |018          | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                                       |Medium (Binary Search)
+|019          | Single Element in a Sorted Array    | [`singleNonDuplicate`](./array/medium/single-element-in-sorted-array/README.md)                   |Medium (Binary Search)
 
 ### Map
 
