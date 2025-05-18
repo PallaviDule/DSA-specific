@@ -65,13 +65,48 @@ Try solving by thinking:
 
 We want to **minimize the maximum pages** assigned to any student.
 That’s a strong hint to apply **Binary Search on the answer space**.
+- **What’s the Problem Asking?**    
+    You are given books, each with some number of pages. You need to give these books to students.
 
-Why? Because:
+    * Every student **must get at least one book**.
+    * Books given to a student must be **in a row** (contiguous).
+    * You want to split the books **as fairly as possible** so that **the student with the most pages still has the smallest possible number**.
 
-* The answer lies between **max(arr)** and **sum(arr)**.
-* If we can **check whether a certain page limit is possible**, we can use that as a condition to shrink our range.
+    This is like splitting work among students — make sure no one gets too much, and the one who gets the most should still get the least **possible**.
+- **Where Does Binary Search Fit Here?**    
+    - You don’t need to binary search the books. You **binary search the answer**.
+    -  Yes, really — you binary search the possible values of the **maximum number of pages a student can be allowed**.
+    * The answer lies between **max(arr)** and **sum(arr)**.
+- **Why is the minimum possible pages = `max(arr)`?**   
+Because:
 
----
+    * Suppose one book has 90 pages. Even if a student is given just that book, they still need to read 90 pages.
+    * So, **no matter how you split**, the answer can’t be **less than the maximum book**.
+    * Example: `arr = [12, 34, 67, 90]`  
+    You can’t give less than 90 to any student because someone has to read that 90-page book.
+- **Why is the maximum possible pages = `sum(arr)`?**   
+That’s the worst-case scenario — where you give **all books to one student**.
+
+    * If only one student is there, they’ll get all books.
+    * That’s the **upper bound** of how many pages any student might get.
+    * Example: Sum of \[12, 34, 67, 90] = **203**   
+    If 1 student → they read 203 pages.
+- **So what’s the plan?**   
+    - We search between `low = max(arr)` and `high = sum(arr)` to find the **smallest possible value of maximum pages** that works.
+    - Each guess (mid) means:
+        > Can we give books to all students such that **no one gets more than `mid` pages**?
+    - If yes → try smaller `mid` (maybe we can do better!)
+    - If no → increase `mid` (our guess was too small)
+- **How Do We Check If a Guess Works?**     
+    We simulate the distribution:
+
+    * Start assigning books to one student. Keep adding up pages.
+    * If total exceeds `mid`, give books to next student.
+    * Keep count of how many students are needed.
+
+        If we used ≤ `k` students → guess is **valid**  
+        If we used > `k` students → guess is **not valid**
+- **Repeat until we find the best (smallest) valid guess!** 
 
 ## Approach
 
@@ -87,8 +122,6 @@ Why? Because:
    * Check if it's **possible** to assign books such that no student gets more than `mid` pages.
 3. If possible → try smaller max → `high = mid - 1`.
 4. If not possible → try larger max → `low = mid + 1`.
-
----
 
 ### Pseudocode
 
@@ -123,8 +156,6 @@ function findMinimumPages(arr, k):
     return result
 ```
 
----
-
 ## Walkthrough Example
 
 For `arr = [12, 34, 67, 90]`, `k = 2`:
@@ -142,8 +173,6 @@ For `arr = [12, 34, 67, 90]`, `k = 2`:
 * Mid = 119 → No
 * Back to mid = 113 → Yes ← best possible
 
----
-
 ## Data Evolution
 
 | Iteration | low | high | mid | isPossible | result  |
@@ -153,8 +182,6 @@ For `arr = [12, 34, 67, 90]`, `k = 2`:
 | 3         | 118 | 145  | 131 | Yes        | 131     |
 | ...       | ... | ...  | ... | ...        | ...     |
 | Final     |     |      |     |            | **113** |
-
----
 
 ## Time and Space Complexity
 
