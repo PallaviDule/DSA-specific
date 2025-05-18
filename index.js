@@ -39,7 +39,7 @@ const problems = {
     searchInRotatedSortedArray: require('./array/medium/search-in-rotated-sorted-array/solution'),
     peakIndexInMountainArray: require('./array/medium/peak-index-in-mountain-array/solution'),
     singleNonDuplicate: require('./array/medium/single-element-in-sorted-array/solution'),
-    allocateMinimumPages: require('./array/medium/allocate-minimum-pages/solution'),
+    allocatedMinimumPages: require('./array/medium/allocate-minimum-pages/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set

@@ -158,37 +158,60 @@ function findMinimumPages(arr, k):
 
 ## Walkthrough Example
 
-For `arr = [12, 34, 67, 90]`, `k = 2`:
+Let’s take:
+`arr = [12, 34, 67, 90]`, `k = 2`
 
-* Total pages = 203
-* Start binary search between `90` and `203`
-* Mid = 146 → possible? Yes
-* Try smaller → Mid = 118 → Yes
-* Try smaller → Mid = 104 → No
-* Mid = 111 → No
-* Mid = 114 → No
-* Mid = 116 → No
-* Mid = 117 → No
-* Mid = 118 → No
-* Mid = 119 → No
-* Back to mid = 113 → Yes ← best possible
+* min = max(arr) = 90
+* max = sum(arr) = 203
+
+Binary Search Steps:
+
+* mid = (90+203)//2 = 146 → Try allocating with max 146
+  → Yes: \[12,34,67], \[90]
+  → Update result = 146, try smaller → end = 145
+
+* mid = 117
+  → Try \[12,34,67], \[90] → \[12+34+67=113] is OK, next 90 also fits
+  → Total 2 students → Valid → result = 117, end = 116
+
+* mid = 103
+  → Try \[12,34], \[67], \[90] → Needs 3 students → Not valid → start = 104
+
+* mid = 110 → Needs 3 students → Not valid → start = 111
+
+* mid = 114 → Still 3 → Not valid → start = 115
+
+* mid = 116 → Still 3 → Not valid → start = 117
+
+* mid = 117 → Valid again → result = 117, end = 116 → stop
+
+Final Answer: 117
+
+Then retry:
+
+* mid = 113 → Try \[12+34+67], \[90] → Valid
+* Try smaller → end = 112
+* mid = 101 → Invalid
+* Eventually: smallest valid = 113
+
+---
 
 ## Data Evolution
 
-| Iteration | low | high | mid | isPossible | result  |
-| --------- | --- | ---- | --- | ---------- | ------- |
-| 1         | 90  | 203  | 146 | Yes        | 146     |
-| 2         | 90  | 145  | 117 | No         | 146     |
-| 3         | 118 | 145  | 131 | Yes        | 131     |
-| ...       | ... | ...  | ... | ...        | ...     |
-| Final     |     |      |     |            | **113** |
+| mid | Allocation Valid? | Used Students | Notes                 |
+| --- | ----------------- | ------------- | --------------------- |
+| 146 | Yes               | 2             | Possible, try smaller |
+| 117 | Yes               | 2             | Try smaller again     |
+| 103 | No                | 3             | Try bigger            |
+| 110 | No                | 3             |                       |
+| 113 | Yes               | 2             | **Best so far**       |
+| 112 | No                | 3             |                       |
+
+---
 
 ## Time and Space Complexity
 
-* **Time Complexity:** `O(n * log(sum - max))`
+* **Time**: O(n log(sum - max)) → Binary search over range, O(n) for each validity check
+* **Space**: O(1) extra — no additional data structures used
 
-  * `n` for checking feasibility
-  * `log(sum - max)` for binary search iterations
-* **Space Complexity:** `O(1)`
-
-  * Constant extra space used
+Let me know if you'd like this saved as a `.md` file or want the JS solution file included.
