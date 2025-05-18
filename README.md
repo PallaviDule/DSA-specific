@@ -81,9 +81,10 @@ Great point — here's an improved version of the table with a note in the **"Re
 |014          | Max Sum Of Sub Array                | [`maxSumOfSubArray`](./array/medium/max-sum-of-subarray/README.md)                                |Medium (two pointer)
 |015          | Majority Element                    | [`moveZeros`](./array/easy//majority-element/README.md)                                           |Easy (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
 |016          | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
-|017          | Peak Index In Mountain Array        | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/README.md)            |Medium (Binary Search)
-|018          | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                                       |Medium (Binary Search)
+|017          | Peak Index In Mountain Array        | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/README.md)               |Medium (Binary Search)
+|018          | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                               |Medium (Binary Search)
 |019          | Single Element in a Sorted Array    | [`singleNonDuplicate`](./array/medium/single-element-in-sorted-array/README.md)                   |Medium (Binary Search)
+|020          | Allocate Minimum Pages              | [`allocateMinimumPages`](./array/medium/allocate-minimum-pages/README.md)                         |Medium (Searching, Divide and Conquer, Binary Search)
 
 ### Map
 
