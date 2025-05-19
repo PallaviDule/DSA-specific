@@ -30,13 +30,8 @@ For each test case output one integer: the **largest minimum distance**.
 ### Input:
 
 ```
-1  
-5 3  
-1  
-2  
-8  
-4  
-9  
+arr length:5 , cows: 3  
+arr = [1,2,8,4,9]  
 ```
 
 ### Output:
