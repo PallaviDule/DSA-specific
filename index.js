@@ -40,6 +40,7 @@ const problems = {
     peakIndexInMountainArray: require('./array/medium/peak-index-in-mountain-array/solution'),
     singleNonDuplicate: require('./array/medium/single-element-in-sorted-array/solution'),
     allocatedMinimumPages: require('./array/medium/allocate-minimum-pages/solution'),
+    paintersPartition: require('./array/medium/painters-partition/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
