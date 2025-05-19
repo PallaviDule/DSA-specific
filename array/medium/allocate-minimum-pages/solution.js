@@ -1,4 +1,4 @@
-function isValid(arr, num, maxAllowed) {
+function isValid(arr, num, maxAllowed) { // O(n)
     let students = 1; let pages = 0;
     
     for(let page of arr){
@@ -17,14 +17,14 @@ function isValid(arr, num, maxAllowed) {
     return true ;
 }
 
-const allocatedMinimumPages = (arr, k) => {
+const allocatedMinimumPages = (arr, k) => { // O(log n *n)
     if (k > arr.length) return -1;
 
    let ans = -1;
    let low = Math.max(...arr);
-   let high = arr.reduce((acc, curr) => acc+curr  ,0);   
+   let high = arr.reduce((acc, curr) => acc+curr  ,0);  // O(n)  
    console.log('low:', low, ', high:', high);
-   while(low <= high){
+   while(low <= high){  // O(log n *n)
        let mid = Math.floor((low+high)/2);
        
        if(isValid(arr, k, mid)) {
@@ -46,4 +46,5 @@ export function run(){
     console.log('----------------------------------------------------------------------');
     console.log("Allocated Minimum pages:", allocatedMinimumPages([22, 23, 67], 1));
     console.log('----------------------------------------------------------------------');
+    console.log("Allocated Minimum pages:", allocatedMinimumPages([15, 17, 20], 3));
 }
