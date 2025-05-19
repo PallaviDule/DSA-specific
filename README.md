@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 50 Sample Problems (Grouped by Category)
+## 52 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -85,6 +85,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |018          | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                               |Medium (Binary Search)
 |019          | Single Element in a Sorted Array    | [`singleNonDuplicate`](./array/medium/single-element-in-sorted-array/README.md)                   |Medium (Binary Search)
 |020          | Allocate Minimum Pages              | [`allocateMinimumPages`](./array/medium/allocate-minimum-pages/README.md)                         |Medium (Searching, Divide and Conquer, Binary Search)
+|021          | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                               |Medium (Searching, Divide and Conquer, Binary Search)
 
 ### Map
 
