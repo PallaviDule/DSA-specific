@@ -47,19 +47,53 @@
         return arr;
     }
 
+    // Build the sorted array one element at a time. For each element, insert it into the correct position among the elements already sorted.
+    const insertionSort = (arr) => {
+        for(let i=1; i<arr.length; i++){
+            let curr = arr[i];
+
+            for(let j=i-1;j>=0; j--){
+                if(arr[j] > curr) {
+                    arr[j+1] = arr[j];
+                    arr[j] = curr;
+                }
+            }
+        }
+
+        // other way
+        // for (let i = 1; i < n; i++) {
+        //     let key = arr[i];
+        //     let j = i - 1;
+        //     while (j >= 0 && arr[j] > key) {
+        //      arr[j + 1] = arr[j];
+        //      j--;
+        //     }
+        //     arr[j + 1] = key;
+        // }
+
+        return arr;
+
+    }
+
 
 export function run() {
-    console.log('Bubble sorting:', bubbleSort([4,1,5,2,3]));
-    console.log('-----------------------------------------');
-    console.log('Bubble sorting:', bubbleSort([4,9,5,6,10]));
-    console.log('-----------------------------------------');
-    console.log('Bubble sorting:', bubbleSort([1,2,3,4,5])); // what if array is sorted
-    console.log('-----------------------------------------');
+    // console.log('Bubble sorting:', bubbleSort([4,1,5,2,3]));
+    // console.log('-----------------------------------------');
+    // console.log('Bubble sorting:', bubbleSort([4,9,5,6,10]));
+    // console.log('-----------------------------------------');
+    // console.log('Bubble sorting:', bubbleSort([1,2,3,4,5])); // what if array is sorted
+    // console.log('-----------------------------------------');
 
-    console.log('Selection sorting:', selectionSort([4,1,5,2,3]));
+    // console.log('Selection sorting:', selectionSort([4,1,5,2,3]));
+    // console.log('-----------------------------------------');
+    // console.log('Selection sorting:', selectionSort([11,9,5,4,10]));
+    // console.log('-----------------------------------------');
+    // console.log('Selection sorting:', selectionSort([1,2,3,4,5])); // what if array is sorted
+
+    console.log('Insertion sorting:', insertionSort([4,1,5,2,3]));
     console.log('-----------------------------------------');
-    console.log('Selection sorting:', selectionSort([11,9,5,4,10]));
+    console.log('Insertion sorting:', insertionSort([11,9,5,4,10]));
     console.log('-----------------------------------------');
-    console.log('Selection sorting:', selectionSort([1,2,3,4,5])); // what if array is sorted
+    console.log('Insertion sorting:', insertionSort([1,2,3,4,5])); // what if array is sorted
 
 }
