@@ -43,6 +43,7 @@ const problems = {
     allocatedMinimumPages: require('./array/medium/allocate-minimum-pages/solution'),
     paintersPartition: require('./array/medium/painters-partition/solution'),
     aggressiveCows: require('./array/medium/aggressive-cows/solution'),
+    sortColors: require('./array/medium/sort-colors/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
