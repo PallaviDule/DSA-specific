@@ -1,4 +1,5 @@
 const sortColors = (arr) => {
+    console.log('Input Array:', arr);
 
 }
 
