@@ -16,6 +16,7 @@ const problems = {
     xRaisedToPowerN: require('./math/medium/power-n-of-x/solution'),
     countPrimes: require('./math/medium/count-primes/solution'),
     // array
+    sorting: require('./array/easy/sorting/solution'),
     reverseArray: require('./array/basic-array/reverse-array'),
     sumAndProduct: require('./array/basic-array/sum-product-of-array'),
     swapMinMax: require('./array/basic-array/swap-max-min'),
