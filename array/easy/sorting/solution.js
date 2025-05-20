@@ -49,12 +49,12 @@
 
 
 export function run() {
-    // console.log('Bubble sorting:', bubbleSort([4,1,5,2,3]));
-    // console.log('-----------------------------------------');
-    // console.log('Bubble sorting:', bubbleSort([4,9,5,6,10]));
-    // console.log('-----------------------------------------');
-    // console.log('Bubble sorting:', bubbleSort([1,2,3,4,5])); // what if array is sorted
-    // console.log('-----------------------------------------');
+    console.log('Bubble sorting:', bubbleSort([4,1,5,2,3]));
+    console.log('-----------------------------------------');
+    console.log('Bubble sorting:', bubbleSort([4,9,5,6,10]));
+    console.log('-----------------------------------------');
+    console.log('Bubble sorting:', bubbleSort([1,2,3,4,5])); // what if array is sorted
+    console.log('-----------------------------------------');
 
     console.log('Selection sorting:', selectionSort([4,1,5,2,3]));
     console.log('-----------------------------------------');
