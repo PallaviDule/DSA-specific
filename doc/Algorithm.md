@@ -349,3 +349,64 @@ The **Sieve of Eratosthenes** is a classic and efficient algorithm used to find 
         - O(n log log n) is much faster for large n because log(log n) grows so slowly.
     * **Space:** `O(n)`
 
+
+## Dutch National Flag Algorithm
+- ### Problem it solves:
+
+    It efficiently **partitions an array** into **three distinct sections** based on a condition or value.
+
+    Classic case: An array contains **only three types of elements** (e.g., `0, 1, 2` or `low, mid, high` categories), and we want to **reorder** them so that all of:
+
+    * the **lowest group comes first**,
+    * then the **middle group**,
+    * then the **highest group** — all **in-place** and in **one pass**.
+
+- ### How it works (generic logic):
+
+    We use three pointers:
+
+    | Pointer | Purpose                                |
+    | ------- | -------------------------------------- |
+    | `low`   | boundary of the first group (e.g., 0s) |
+    | `mid`   | current element being examined         |
+    | `high`  | boundary of the last group (e.g., 2s)  |
+
+- ### Steps:
+
+    1. Initialize: `low = 0`, `mid = 0`, `high = arr.length - 1`
+    2. Loop while `mid <= high`:
+
+    * If element at `mid` belongs to the **first group**:
+
+        * Swap with `low`
+        * Move both `low++` and `mid++`
+    * If element at `mid` belongs to the **second group**:
+
+        * Just move `mid++`
+    * If element at `mid` belongs to the **third group**:
+
+        * Swap with `high`
+        * Move `high--` only (do **not** increment `mid` yet)
+
+    This guarantees that:
+
+    * Everything **before `low`** is sorted and belongs to group 1
+    * Everything **between `low` and `mid`** is group 2 (being sorted)
+    * Everything **after `high`** is group 3
+
+- ### Key Insight
+
+    Why not increment `mid` after swapping with `high`?
+
+    > Because the element swapped from `high` to `mid` is **unprocessed**, so we must check it again before advancing `mid`.
+
+- ### Use Cases:
+
+    * Sorting 0s, 1s, and 2s (Sort Colors problem)
+    * Three-way partitioning in QuickSort
+    * Partitioning data based on pivot values (e.g., < pivot, == pivot, > pivot)
+
+- ###  Time and Space Complexity
+
+    * **Time:** O(n) — one pass
+    * **Space:** O(1) — no extra space used
