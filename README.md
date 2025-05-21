@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 52 Sample Problems (Grouped by Category)
+## 54 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -87,7 +87,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |020          | Allocate Minimum Pages              | [`allocateMinimumPages`](./array/medium/allocate-minimum-pages/README.md)                         |Medium (Searching, Divide and Conquer, Binary Search)
 |021          | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                                |Medium (Searching, Divide and Conquer, Binary Search, GFG)
 |022          | Aggressice Cows                     | [`aggressiveCows`](./array/medium/aggressive-cows/README.md)                                      |Medium (Searching, Divide and Conquer, Binary Search, spoj)
-|023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( tow pointers, leetcode)
+|023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
 
 ### Map
 
