@@ -32,6 +32,8 @@ var lengthOfLongestSubstring = function(s) {
 // Longest Substring Without Repeating Characters
 
 export function run() {
-    const input = "abcabcbb";
+    let input = "abcabcbb";
+    console.log('input:', input, ', output:', lengthOfLongestSubstring(input)); // Output: 3
+    input = " ";
     console.log('input:', input, ', output:', lengthOfLongestSubstring(input)); // Output: 3
 }
