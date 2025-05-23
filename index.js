@@ -45,6 +45,7 @@ const problems = {
     aggressiveCows: require('./array/medium/aggressive-cows/solution'),
     sortColors: require('./array/medium/sort-colors/solution'),
     nextPermutation: require('./array/medium/next-permutation/solution'),
+    minimumInRotatedSortedArray: require('./array/medium/minimum-in-rotated-sorted-array/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
