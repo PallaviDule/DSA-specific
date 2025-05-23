@@ -88,6 +88,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |021          | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                                |Medium (Searching, Divide and Conquer, Binary Search, GFG)
 |022          | Aggressice Cows                     | [`aggressiveCows`](./array/medium/aggressive-cows/README.md)                                      |Medium (Searching, Divide and Conquer, Binary Search, spoj)
 |023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
+|024          | Next Permutation                        | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
+|025          | Minimum In Rotated Sorted Array      | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
 
 ### Map
 

@@ -37,7 +37,7 @@ Even though the array is rotated, it is composed of two sorted subarrays. The sm
 
 ## Approach
 
-### Tags: `Binary Search`, `Pivot Detection`
+#### Tags: `Binary Search`, `Pivot Detection`
 
 We want to find the smallest element in a rotated sorted array in `O(log n)` time.
 
