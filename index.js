@@ -46,7 +46,7 @@ const problems = {
     sortColors: require('./array/medium/sort-colors/solution'),
     nextPermutation: require('./array/medium/next-permutation/solution'),
     minimumInRotatedSortedArray: require('./array/medium/minimum-in-rotated-sorted-array/solution'),
-    threeTwoOnePattern: require('./array/medium/132-pattern/solution'),
+    OneThreeTwoPattern: require('./array/medium/132-pattern/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
