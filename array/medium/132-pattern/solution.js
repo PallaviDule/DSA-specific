@@ -24,7 +24,7 @@ var find132pattern1 = function(nums) {
 };
 
 // O(n^2) - may not work for large set
-var find132pattern = function(nums) {
+var find132pattern2 = function(nums) {
     console.log('Input array:', nums);
     for(let i=1; i< nums.length-1; i++){
         let smallestLeft = nums[0];
@@ -41,6 +41,24 @@ var find132pattern = function(nums) {
                 }
             }
         }
+    }
+
+    return false;
+};
+
+// optimized O(n)
+var find132pattern = function(nums) {
+    let stack =[]; // storing possible largest 3 value
+    let third = - Infinity; // storing possible second largest 2 value;
+
+    for(let i=nums.length-1; i>=0; i--) {
+        if(nums[i] < third) return true; 
+
+        while(stack.length > 0 && nums[i] > stack[stack.length-1]) {
+            third = stack.pop(); // 
+        }
+
+        stack.push(nums[i]); // stack will have almost values of nums
     }
 
     return false;
