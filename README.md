@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 54 Sample Problems (Grouped by Category)
+## 55 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -106,6 +106,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 003         | Find the Index of the First Occurrence in a String    | [`indexOfFirstOccurrence`](./string/easy/find-index-of-first-occurrence-in-string/README.md) | Easy 
 | 004         | Length of Last Word    | [`lengthOfLastWord`](./string/easy/length-of-last-word/README.md) | Easy (Two-pointer)
 | 005        | Add Binary    | [`addBinary`](./string/easy/add-binary/README.md) | Easy (Math, Bit Manipulation, Simulation)
+| 006        | Reverse String    | [`reverseString`](./string/easy/reverse-string/README.md) | Easy (Two-pointer)
 
 
 ### Set
