@@ -59,6 +59,7 @@ const problems = {
     lengthOfLastWord: require('./string/easy/length-of-last-word/solution'),
     addBinary: require('./string/easy/add-binary/solution'),
     reverseString: require('./string/easy/reverse-string/solution'),
+    validPalindrome: require('./string/easy/valid-palindrome/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
     OneThreeTwoPattern: require('./stack/medium/132-pattern/solution'),
