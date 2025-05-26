@@ -32,7 +32,7 @@ var isPalindrome1 = function(s) {
     return true;  
 };
 
-var isPalindrome = function(s) {
+var isPalindrome2 = function(s) {
     let newString = s.toLowerCase().trim();
 
     if(newString.length === 0) return true;
@@ -41,6 +41,7 @@ var isPalindrome = function(s) {
     let end = newString.length-1;
 
     const isAlphanumeric = (char) => {
+        // simple : /[a-z0-9]/.test(char)
         if((char >= '0' && char <= '9') || (char >= 'a' && char <= 'z')) return true;
 
         return false;
@@ -66,6 +67,50 @@ var isPalindrome = function(s) {
 
     return true;
 };
+
+var isPalindrome3 = function(s) {
+    s = s.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    let start=0, end=s.length-1;
+
+    while(start<end) {
+        if(s[start]!==s[end]) return false
+        
+        start++;
+        end--
+    }
+    return true
+};
+
+// If you want to meet the O(1) extra space requirement (as mentioned in the LeetCode follow-up), 
+// then you should not create a new string using .replace() or .toLowerCase() on the entire input.
+// Optimized - no extra space 
+var isPalindrome = function(s) {
+    let start = 0;
+    let end = s.length - 1;
+
+    const isAlphanumeric = (char) => {
+        return (
+            (char >= 'a' && char <= 'z') ||
+            (char >= 'A' && char <= 'Z') ||
+            (char >= '0' && char <= '9')
+        );
+    };
+
+    while (start < end) {
+        while (start < end && !isAlphanumeric(s[start])) start++;
+        while (start < end && !isAlphanumeric(s[end])) end--;
+
+        if (start < end && s[start].toLowerCase() !== s[end].toLowerCase()) {
+            return false;
+        }
+
+        start++;
+        end--;
+    }
+
+    return true;
+};
+
 
 
 export function run() {
