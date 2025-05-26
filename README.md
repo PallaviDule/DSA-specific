@@ -118,7 +118,9 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
-| 001         | Valid Parentheses   | [`validParentheses`](./stack/easy/valid-parentheses/README.md) | easy 
+| 001         | Valid Parentheses   | [`validParentheses`](./stack/easy/valid-parentheses/README.md) | Easy 
+| 002         | 132 pattern   | [`OneThreeTwoPattern`](./stack/medium/132-pattern/README.md) | Medium, Array, Binary Search, Stack, Monotonic Stack
+
 
 ### Tree
 

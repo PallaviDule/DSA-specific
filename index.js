@@ -46,7 +46,6 @@ const problems = {
     sortColors: require('./array/medium/sort-colors/solution'),
     nextPermutation: require('./array/medium/next-permutation/solution'),
     minimumInRotatedSortedArray: require('./array/medium/minimum-in-rotated-sorted-array/solution'),
-    OneThreeTwoPattern: require('./array/medium/132-pattern/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
@@ -61,7 +60,7 @@ const problems = {
     addBinary: require('./string/easy/add-binary/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
-
+    OneThreeTwoPattern: require('./stack/medium/132-pattern/solution'),
     // linked list
     middleNode: require('./linked-list/easy/middle-of-linked-list/solution'),
     addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution'),

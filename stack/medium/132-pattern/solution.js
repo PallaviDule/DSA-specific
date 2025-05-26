@@ -55,7 +55,7 @@ var find132pattern = function(nums) {
         if(nums[i] < third) return true; 
 
         while(stack.length > 0 && nums[i] > stack[stack.length-1]) {
-            third = stack.pop(); // 
+            third = stack.pop(); // looks for the largest value in stack which is lower than nums[i] 
         }
 
         stack.push(nums[i]); // stack will have almost values of nums
