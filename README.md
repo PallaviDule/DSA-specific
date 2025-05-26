@@ -109,8 +109,6 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 006        | Reverse String    | [`reverseString`](./string/easy/reverse-string/README.md) | Easy (Two-pointer)
 | 007        | Valid Palindrome    | [`validPalindrome`](./string/easy/valid-palindrome/README.md) | Easy (Two-pointer)
 
-
-
 ### Set
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
