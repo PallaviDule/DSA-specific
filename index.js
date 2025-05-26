@@ -58,6 +58,7 @@ const problems = {
     indexOfFirstOccurrence: require('./string/easy/find-index-of-first-occurrence-in-string/solution'),
     lengthOfLastWord: require('./string/easy/length-of-last-word/solution'),
     addBinary: require('./string/easy/add-binary/solution'),
+    reverseString: require('./string/easy/reverse-string/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
     OneThreeTwoPattern: require('./stack/medium/132-pattern/solution'),
