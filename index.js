@@ -60,6 +60,7 @@ const problems = {
     addBinary: require('./string/easy/add-binary/solution'),
     reverseString: require('./string/easy/reverse-string/solution'),
     validPalindrome: require('./string/easy/valid-palindrome/solution'),
+    removeOccurrencesOfSubstring: require('./string/medium/remove-all-occurrences-of-substring/solution'),
     // stack
     validParentheses: require('./stack/easy/valid-parentheses/solution'),
     OneThreeTwoPattern: require('./stack/medium/132-pattern/solution'),
