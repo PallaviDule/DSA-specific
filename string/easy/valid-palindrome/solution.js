@@ -2,8 +2,7 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
-    console.log('Input string:', s);
+var isPalindrome1 = function(s) {
     let newString = s.toLowerCase().trim();
 
     if(newString.length === 0) return true;
@@ -12,26 +11,60 @@ var isPalindrome = function(s) {
     let end = newString.length-1;
 
     const isAlphanumeric = (char) => {
-        if((char >= 0 && char <= 9) || (char >= 'a' || char <= 'z')) return false;
+        if((char >= '0' && char <= '9') || (char >= 'a' && char <= 'z')) return true;
 
-        return true;
+        return false;
     }
 
     while(start < end){
-        if(isAlphanumeric(newString[start])) {
+        if(!isAlphanumeric(newString[start])) {
             start++;
-        }else if(isAlphanumeric(newString[end])){
+        }else if(!isAlphanumeric(newString[end])){
             end--;
-        } else if(newString[start] != newString[end]){
+        } else if(newString[start] !== newString[end]){
             return false;
         } else {
             start++;
-            end++;
+            end--;
         }
     }
 
+    return true;  
+};
+
+var isPalindrome = function(s) {
+    let newString = s.toLowerCase().trim();
+
+    if(newString.length === 0) return true;
+
+    let start =0;
+    let end = newString.length-1;
+
+    const isAlphanumeric = (char) => {
+        if((char >= '0' && char <= '9') || (char >= 'a' && char <= 'z')) return true;
+
+        return false;
+    }
+
+    while(start < end){
+        while( start < end && !isAlphanumeric(newString[start])) {
+            start++;
+        }
+        
+        while(start < end && !isAlphanumeric(newString[end])){
+            end--;
+        } 
+        
+        if(newString[start] !== newString[end]){
+            return false;
+        }
+
+        // this condition reaches if char[start] === char[end]
+        start++;
+        end--;
+    }
+
     return true;
-    
 };
 
 
