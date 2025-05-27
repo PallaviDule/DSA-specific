@@ -7,7 +7,7 @@ var reverseWords1 = function(s) {
 };
 
 
-var reverseWords = function(s) {
+var reverseWords1 = function(s) {
     s = s.split(' ').reverse();
     let stringLength = s.length;
 
@@ -17,6 +17,23 @@ var reverseWords = function(s) {
         if(word.length === 0) continue;
 
         result += word + ' ';
+    }
+
+    return result.trim();
+};
+
+var reverseWords = function(s) {
+    let i = s.length - 1;
+    let result = '';
+
+    while (i >= 0) {
+        while (i >= 0 && s[i] === ' ') i--; // skip spaces
+        let j = i;
+        while (i >= 0 && s[i] !== ' ') i--; // find the word
+
+        if (j >= 0) {
+            result += s.substring(i + 1, j + 1) + ' ';
+        }
     }
 
     return result.trim();
