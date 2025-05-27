@@ -42,6 +42,7 @@ var checkInclusion1 = function(s1, s2) {
 };
 
 var checkInclusion = function(s1, s2) {
+    console.log('Input Strings- S1:', s1, ', S2:', s2);
     if(s1.length > s2.length) return false;
 
     let s1Frequency = new Array(26).fill(0);
