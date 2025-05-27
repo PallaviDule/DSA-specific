@@ -2,10 +2,25 @@
  * @param {string} s
  * @return {string}
  */
-var reverseWords = function(s) {
+var reverseWords1 = function(s) {
     return s.split(' ').filter(value => value !== '').reverse().join(' ');
 };
 
+
+var reverseWords = function(s) {
+    s = s.split(' ').reverse();
+    let stringLength = s.length;
+
+    let result = '';
+
+    for(let word of s){
+        if(word.length === 0) continue;
+
+        result += word + ' ';
+    }
+
+    return result.trim();
+};
 
 
 export const run = () => {

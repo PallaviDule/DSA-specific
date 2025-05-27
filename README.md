@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 60 Sample Problems (Grouped by Category)
+## 61 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -110,6 +110,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 007        | Valid Palindrome    | [`validPalindrome`](./string/easy/valid-palindrome/README.md) | Easy (Two-pointer)
 | 008        | Remove All Occurrences of a Substring    | [`removeOccurrencesOfSubstring`](./string/medium/remove-all-occurrences-of-substring/README.md) | Medium (Stack, Simulation)
 | 009        | Permutation in String    | [`permutationInString`](./string/medium/permutation-in-string/README.md) | Medium (Hash Table, Two Pointers, Sliding Window)
+| 010        | Reverse the Words in String    | [`reverseWordsInString`](./string/medium/reverse-words-in-string/README.md) | Medium (Two Pointers)
+
 
 
 ### Set

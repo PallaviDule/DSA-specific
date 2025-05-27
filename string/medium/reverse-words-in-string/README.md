@@ -106,3 +106,61 @@ Output: `'example good a'`
 
 * **Time:** O(n), where n is the length of the string. We split and iterate through the words.
 * **Space:** O(n), for storing the split words and final result string.
+
+---
+## Two Pointers Approach (In-Place Style)
+
+### Intuition
+
+We treat the input string as a character array and manipulate it directly:
+
+1. First reverse the **entire string**.
+2. Then, reverse each **individual word**.
+3. Finally, **clean up spaces** — remove leading, trailing, and multiple intermediate spaces.
+
+This approach uses two pointers to reverse words and trim spaces efficiently.
+
+---
+
+### 🧩 Pseudocode
+
+```
+function reverseWords(s):
+    Convert s to array if needed (e.g., s = s.split(''))
+
+    Reverse the entire array
+    Initialize slow = 0 for writing characters
+
+    for fast from 0 to length of s:
+        Skip multiple spaces
+
+        If a word starts:
+            If slow > 0, insert a single space
+            Copy characters from fast to slow until space or end
+            Reverse that word in-place
+
+    Resize array to slow (cut off trailing part if needed)
+    Return the string formed by the first 'slow' characters
+```
+
+---
+
+### 🔁 Example Walkthrough
+
+Input: `"  the   sky  is  blue  "`
+
+1. **Reverse all characters**:
+   `"  eulb  si  yks   eht  "`
+
+2. **Reverse each word in place**:
+   `"  blue  is  sky   the  "`
+
+3. **Remove extra spaces**:
+   `"blue is sky the"`
+
+---
+
+### 📌 Time and Space Complexity
+
+* **Time**: `O(n)` — each character is visited a constant number of times
+* **Space**: `O(1)` extra if working in-place (or `O(n)` if using a new string/array)
