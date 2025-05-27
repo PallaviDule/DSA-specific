@@ -4,7 +4,7 @@
  * @return {boolean}
  */
 // not exactly the sliding window solution
-var checkInclusion = function(s1, s2) {
+var checkInclusion1 = function(s1, s2) {
     if (s1.length > s2.length) return false;
 
     let orginalFrequency = new Array(26).fill(0);
@@ -39,4 +39,43 @@ var checkInclusion = function(s1, s2) {
     }
 
     return false;
+};
+
+var checkInclusion = function(s1, s2) {
+    if(s1.length > s2.length) return false;
+
+    let s1Frequency = new Array(26).fill(0);
+    let windowFrequency = new Array(26).fill(0);
+    let aCharCode = 'a'.charCodeAt(0);
+
+    for(let i=0; i <s1.length; i++){
+        s1Frequency[s1[i].charCodeAt(0) - aCharCode]++;
+        windowFrequency[s2[i].charCodeAt(0) - aCharCode]++;
+    }
+
+    const isSameFrq = (s1Frequency, windowFrequency) => {
+        for(let i=0; i< 26; i++){ // s1 and s2 consist of lowercase English letters.
+            if(s1Frequency[i] !== windowFrequency[i]) return false;
+        }
+        return true;
+    }
+
+    if(isSameFrq(s1Frequency, windowFrequency)) return true;
+
+    for(let i= s1.length; i < s2.length; i++){
+        windowFrequency[s2[i].charCodeAt(0) - aCharCode]++; // add new frequency
+        windowFrequency[s2[i- s1.length].charCodeAt(0) - aCharCode]--; // remove old frequency
+
+        if(isSameFrq(s1Frequency, windowFrequency)) return true;
+    }
+
+    return false;
+}
+
+
+export const run = () => {
+    console.log(checkInclusion("ab", "eidbaooo")); // Output: true
+    console.log("---------***----------")
+    console.log(checkInclusion("ab", "eidboaoo")); // Output: false
+    console.log("---------***----------")
 };
