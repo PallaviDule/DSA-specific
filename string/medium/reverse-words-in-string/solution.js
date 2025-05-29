@@ -9,8 +9,6 @@ var reverseWords1 = function(s) {
 
 var reverseWords1 = function(s) {
     s = s.split(' ').reverse();
-    let stringLength = s.length;
-
     let result = '';
 
     for(let word of s){
