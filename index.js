@@ -1,6 +1,7 @@
 const problems = {
     // math/basic algorithm
     digitsInNumber: require('./math/basic/digits-in-number/solution'),
+    isArmstrong: require('./math/basic/armstrong-number/solution'),
     isPrimeNumber: require('./math/basic/is-prime-number/solution'),
     fizzBuzz: require('./math/easy/fizz-buzz/solution'),
     numberOfSteps: require('./math/easy/number-of-steps-to-reduce-number/solution'),
