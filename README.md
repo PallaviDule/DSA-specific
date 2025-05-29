@@ -90,6 +90,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
 |024          | Next Permutation                        | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
 |025          | Minimum In Rotated Sorted Array      | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
+|026          | GCD of Array                        | [`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
 
 ### Map
 
