@@ -1,4 +1,5 @@
 function isArmstrong1(num) {
+    console.log('Num:', num);
     const numStr = num.toString();
     const n = numStr.length;
     let sum = 0;
@@ -30,6 +31,7 @@ const power = (temp, exponent) => {
 }
 
 const isArmstrong2 = (num) =>{
+    console.log('Num:', num);
     let originalNumber = num;
     let sum =0;
 
