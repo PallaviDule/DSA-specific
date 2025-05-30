@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 63 Sample Problems (Grouped by Category)
+## 64 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 

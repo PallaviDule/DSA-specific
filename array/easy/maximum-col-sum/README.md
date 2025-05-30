@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-[![GeeksforGeeks Badge](https://img.shields.io/badge/GeeksforGeeks-Find%20Column%20with%20Maximum%20Sum-green)](https://www.geeksforgeeks.org/find-column-with-maximum-sum-in-a-matrix/)
+[![GeeksforGeeks Badge](https://img.shields.io/badge/GeeksforGeeks-Find%20Column%20with%20Maximum%20Sum-green)](https://www.geeksforgeeks.org/problems/diagonal-sum0158/1)
 
 Given a 2D matrix of integers, the task is to identify the column with the maximum sum of its elements.
 
