@@ -19,7 +19,7 @@ const colMaxSum = (matrix) => {
     let maxSum = - Infinity;
     let result = [];
 
-    for((row, index) of matrix.entries()){
+    for(let[index, row] of matrix.entries()){
         let currSum = 0;
 
         for(let col of row) {
@@ -27,8 +27,8 @@ const colMaxSum = (matrix) => {
         }
 
        if(maxSum < currSum) {
-        result[0] = maxSum;
-        result[1] = index;
+            result[0] = currSum;
+            result[1] = index;
        }
     }
 
@@ -42,7 +42,8 @@ export function run(){
                     [4, 5, 6],
                     [7, 8, 9]
                 ];
-    console.log('Max sum of row is', colMaxSum(matrix));
+    let result =  colMaxSum(matrix);         
+    console.log('Row', result[1], ' has maximum sum of:', result[0] );
     console.log('-------------------------------------------------------------------');
     matrix = [
                 [1, 2, 3, 4, 5 ],
@@ -51,5 +52,6 @@ export function run(){
                 [ 0, 6, 3, 4, 12],
                 [ 9, 7, 12, 4, 3]
             ];
-    console.log('Max sum of row is', colMaxSum(matrix));
+    result =  colMaxSum(matrix);         
+    console.log('Row', result[1], ' has maximum sum of:', result[0] );
 }
