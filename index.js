@@ -52,6 +52,7 @@ const problems = {
     minimumInRotatedSortedArray: require('./array/medium/minimum-in-rotated-sorted-array/solution'),
     gcdOfArray: require('./array/easy/gcd-array/solution'),
     rowWithMaxSumInMatrix: require('./array/easy/maximum-row-sum/solution'),
+    colWithMaxSumInMatrix: require('./array/easy/maximum-col-sum/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set

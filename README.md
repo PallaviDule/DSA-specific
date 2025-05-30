@@ -89,10 +89,11 @@ Great point — here's an improved version of the table with a note in the **"Re
 |021          | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                                |Medium (Searching, Divide and Conquer, Binary Search, GFG)
 |022          | Aggressice Cows                     | [`aggressiveCows`](./array/medium/aggressive-cows/README.md)                                      |Medium (Searching, Divide and Conquer, Binary Search, spoj)
 |023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
-|024          | Next Permutation                        | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
-|025          | Minimum In Rotated Sorted Array      | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
+|024          | Next Permutation                    | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
+|025          | Minimum In Rotated Sorted Array     | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
 |026          | GCD of Array                        | [`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
-|027          | Row with maximum sum in a Matrix                        | [`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)                                                  |Easy (gfg, Math)
+|027          | Row with maximum sum in a Matrix                        | [`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)             |Easy (gfg, Math)
+|028          | Column with maximum sum in a Matrix | [`colWithMaxSumInMatrix`](./array/easy/maximum-col-sum/README.md)                                 |Easy (gfg, Math)
 
 ### Map
 

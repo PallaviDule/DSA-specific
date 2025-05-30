@@ -27,6 +27,7 @@ const colMaxSum = (matrix) => {
         }
 
        if(maxSum < currSum) {
+            maxSum = currSum;
             result[0] = currSum;
             result[1] = index;
        }
