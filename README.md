@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 61 Sample Problems (Grouped by Category)
+## 62 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -57,6 +57,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |009          | Sum of Digits  | [`sumOfDigits`](./math/easy/sum-of-digits/README.md)   | Easy (Basic Math)
 |010          | Power(x,n)  | [`xRaisedToPowerN`](./math/medium/power-n-of-x/README.md)   | Medium
 |011          | Count Primes  | [`countPrimes`](./math/medium/count-primes/README.md)   | Medium (Sieve of Eratosthenes)
+|012          | Reverse Integer  | [`reverseInteger`](./math/medium/reverse-integer/README.md)   | Medium
 
 
 ### Array
