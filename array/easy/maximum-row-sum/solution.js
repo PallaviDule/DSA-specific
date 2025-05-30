@@ -17,7 +17,7 @@ const colMaxSum1 = (matrix) => {
 const colMaxSum = (matrix) => {
     console.log('Input Matrix:', matrix);
     let maxSum = - Infinity;
-    let result = [];
+    let column = -1;
 
     for(let[index, row] of matrix.entries()){
         let currSum = 0;
@@ -28,12 +28,11 @@ const colMaxSum = (matrix) => {
 
        if(maxSum < currSum) {
             maxSum = currSum;
-            result[0] = currSum;
-            result[1] = index;
+            column = index;
        }
     }
 
-    return result;
+    return [maxSum, column];
 };
 
 
