@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 62 Sample Problems (Grouped by Category)
+## 63 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -92,6 +92,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |024          | Next Permutation                        | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
 |025          | Minimum In Rotated Sorted Array      | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
 |026          | GCD of Array                        | [`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
+|027          | Row with maximum sum in a Matrix                        | [`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)                                                  |Easy (gfg, Math)
 
 ### Map
 
