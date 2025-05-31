@@ -94,6 +94,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |026          | GCD of Array                        | [`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
 |027          | Row with maximum sum in a Matrix                        | [`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)             |Easy (gfg, Math)
 |028          | Column with maximum sum in a Matrix | [`colWithMaxSumInMatrix`](./array/easy/maximum-col-sum/README.md)                                 |Easy (gfg, Math)
+|030         | Matrix Diagonal Sum                  | [`matrixDiagonalsSum`](./array/easy/matrix-diagonals-sum/README.md)                               |Easy (leetcode, Math)
 
 ### Map
 
