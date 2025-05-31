@@ -53,6 +53,8 @@ const problems = {
     gcdOfArray: require('./array/easy/gcd-array/solution'),
     rowWithMaxSumInMatrix: require('./array/easy/maximum-row-sum/solution'),
     colWithMaxSumInMatrix: require('./array/easy/maximum-col-sum/solution'),
+    matrixDiagonalsSum: require('./array/easy/matrix-diagonals-sum/solution'),
+    matrixDiagonalSum : require('./array/easy/diagonal-sum-of-matrix/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
