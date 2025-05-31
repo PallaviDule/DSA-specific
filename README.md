@@ -62,39 +62,40 @@ Great point — here's an improved version of the table with a note in the **"Re
 
 ### Array
 
-| Problem No. | Title                               | Path/Problem Key | Difficulty
-|-------------|-------------------------------------|------------------| -----
-| 001         | Two Sum                             | [`twoSum`](./array/easy/001-two-sum/README.md)                                                         |Easy
-| 002         | Richest customer wealth             | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md)                         |Easy
-|003          | Sum of 1-D array                    |[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)                                           |Easy
-|004          | Median of Two Sorted Arrays         |[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)                      |Hard
-|005          | Median of Two Sorted Arrays         |[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)|Hard
-|006	      | Remove Duplicate from sorted arrays	| [`removeDuplicates`](./array/easy/remove-duplicates-from-sorted-arrays/README.md)	                |Easy (two pointer)
-|007	      | Remove Element from array	        | [`removeElement`](./array/easy/remove-element/README.md)	                                        |Easy (two pointer)
-|008	      | Merge two sorted array	            | [`mergeTwoSortedArray`](./array/easy/merge-sorted-arrays/README.md)	                            |Easy (two pointer, sorting)
-|009	      | Pascal Triangle	                    | [`generatePascalTriangle`](./array/easy/pascal-triangle/README.md)	                            |Easy (Dynamic Programming)
-|009	      | Pascal Triangle	II                  | [`nthRowOfPascalTriangle`](./array/easy/pascal-triangle-II/README.md)	                            |Easy (Dynamic Programming)
-|010	      | Best time to sell stock             | [`bestTimeToSellStock`](./array/easy/best-time-to-sell-stocks/README.md)	                        |Easy (Dynamic Programming)
-|011          | Two Sum II                          | [`twoSumII`](./array/medium/two-sum-II/README.md)                                                 |Medium (two pointer, binary search)
-|012          | Container With Most Water           | [`containerWithMostWater`](./array/medium/container-with-most-water/README.md)                    |Medium (two pointers, greedy)
-|013          | Intersection of two arrays          | [`intersectionOfTwoArrays`](./array/easy/intersection-of-two-arrays/README.md)                    |Easy
-|013          | Move Zeros                          | [`moveZeros`](./array/easy/move-zeros/README.md)                                                  |Easy (two pointer)
-|014          | Max Sum Of Sub Array                | [`maxSumOfSubArray`](./array/medium/max-sum-of-subarray/README.md)                                |Medium (two pointer)
-|015          | Majority Element                    | [`moveZeros`](./array/easy//majority-element/README.md)                                           |Easy (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
-|016          | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
-|017          | Peak Index In Mountain Array        | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/README.md)               |Medium (Binary Search)
-|018          | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                               |Medium (Binary Search)
-|019          | Single Element in a Sorted Array    | [`singleNonDuplicate`](./array/medium/single-element-in-sorted-array/README.md)                   |Medium (Binary Search)
-|020          | Allocate Minimum Pages              | [`allocateMinimumPages`](./array/medium/allocate-minimum-pages/README.md)                         |Medium (Searching, Divide and Conquer, Binary Search)
-|021          | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                                |Medium (Searching, Divide and Conquer, Binary Search, GFG)
-|022          | Aggressice Cows                     | [`aggressiveCows`](./array/medium/aggressive-cows/README.md)                                      |Medium (Searching, Divide and Conquer, Binary Search, spoj)
-|023          | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
-|024          | Next Permutation                    | [`nextPermutation`](./array/medium/next-permutation/README.md)                                |Medium ( two pointers, leetcode)
-|025          | Minimum In Rotated Sorted Array     | [`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)        |Medium (binary search, leetcode, pivot detection)
-|026          | GCD of Array                        | [`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
-|027          | Row with maximum sum in a Matrix                        | [`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)             |Easy (gfg, Math)
-|028          | Column with maximum sum in a Matrix | [`colWithMaxSumInMatrix`](./array/easy/maximum-col-sum/README.md)                                 |Easy (gfg, Math)
-|030         | Matrix Diagonal Sum                  | [`matrixDiagonalsSum`](./array/easy/matrix-diagonals-sum/README.md)                               |Easy (leetcode, Math)
+|Problem No.| Title                               | Path/Problem Key | Difficulty
+|-----------|-------------------------------------|------------------| -----
+|001        | Two Sum                             | [`twoSum`](./array/easy/001-two-sum/README.md)                                                         |Easy
+|002        | Richest customer wealth             | [`richestCustomerWealth`](./array/easy/richest-customer-wealth/README.md)                         |Easy
+|003        | Sum of 1-D array                    |[`sumOf1dArray`](./array/easy/sum-of-1d-array/README.md)                                           |Easy
+|004        | Median of Two Sorted Arrays         |[`medianOfTwoSortedArray`](./array/hard/median-of-two-sorted-array/README.md)                      |Hard
+|005        | Median of Two Sorted Arrays         |[`medianOfTwoSortedArrayMergeSort`](./array/hard/median-of-two-sorted-array/UseMergeofMergeSort.md)|Hard
+|006	    | Remove Duplicate from sorted arrays | [`removeDuplicates`](./array/easy/remove-duplicates-from-sorted-arrays/README.md)	              |Easy (two pointer)
+|007	    | Remove Element from array	          | [`removeElement`](./array/easy/remove-element/README.md)	                                      |Easy (two pointer)
+|008        | Merge two sorted array	          | [`mergeTwoSortedArray`](./array/easy/merge-sorted-arrays/README.md)	                              |Easy (two pointer, sorting)
+|009	    | Pascal Triangle	                  | [`generatePascalTriangle`](./array/easy/pascal-triangle/README.md)	                              |Easy (Dynamic Programming)
+|009	    | Pascal Triangle	II                | [`nthRowOfPascalTriangle`](./array/easy/pascal-triangle-II/README.md)	                          |Easy (Dynamic Programming)
+|010	    | Best time to sell stock             | [`bestTimeToSellStock`](./array/easy/best-time-to-sell-stocks/README.md)	                      |Easy (Dynamic Programming)
+|011        | Two Sum II                          | [`twoSumII`](./array/medium/two-sum-II/README.md)                                                 |Medium (two pointer, binary search)
+|012        | Container With Most Water           | [`containerWithMostWater`](./array/medium/container-with-most-water/README.md)                    |Medium (two pointers, greedy)
+|013        | Intersection of two arrays          | [`intersectionOfTwoArrays`](./array/easy/intersection-of-two-arrays/README.md)                    |Easy
+|013        | Move Zeros                          | [`moveZeros`](./array/easy/move-zeros/README.md)                                                  |Easy (two pointer)
+|014        | Max Sum Of Sub Array                | [`maxSumOfSubArray`](./array/medium/max-sum-of-subarray/README.md)                                |Medium (two pointer)
+|015        | Majority Element                    | [`majorityElement`](./array/easy//majority-element/README.md)                                     |Easy (Hash Table, Divide and Conquer ,Sorting, kadane's Algo)
+|016        | Search in Rotated Sorted Array      | [`searchInRotatedSortedArray`](./array/medium/search-in-rotated-sorted-array/README.md)           |Medium (Binary Search)
+|017        | Peak Index In Mountain Array        | [`peakIndexInMountainArray`](./array/medium/peak-index-in-mountain-array/README.md)               |Medium (Binary Search)
+|018        | Product except self                 | [`productExceptSelf`](./array/medium/product-except-self/README.md)                               |Medium (Binary Search)
+|019        | Single Element in a Sorted Array    | [`singleNonDuplicate`](./array/medium/single-element-in-sorted-array/README.md)                   |Medium (Binary Search)
+|020        | Allocate Minimum Pages              | [`allocateMinimumPages`](./array/medium/allocate-minimum-pages/README.md)                         |Medium (Searching, Divide and Conquer, Binary Search)
+|021        | Painter's Partition                 | [`paintersPartition`](./array/medium/painters-partition/README.md)                                |Medium (Searching, Divide and Conquer, Binary Search, GFG)
+|022        | Aggressice Cows                     | [`aggressiveCows`](./array/medium/aggressive-cows/README.md)                                      |Medium (Searching, Divide and Conquer, Binary Search, spoj)
+|023        | Sort Colors                         | [`sortColors`](./array/medium/sort-colors/README.md)                                              |Medium ( three pointers, leetcode, Dutch National Flag)
+|024        | Next Permutation                    |[`nextPermutation`](./array/medium/next-permutation/README.md)                                    |Medium ( two pointers, leetcode)
+|025        | Minimum In Rotated Sorted Array     |[`minimumInRotatedSortedArray`](./array/medium/minimum-in-rotated-sorted-array/README.md)         |Medium (binary search, leetcode, pivot detection)
+|026        | GCD of Array                        |[`gcdOfArray`](./array/easy/gcd-array/README.md)                                                  |Easy (leetcode, Math)
+|027        | Row with maximum sum in a Matrix    |[`rowWithMaxSumInMatrix`](./array/easy/maximum-row-sum/README.md)                                 |Easy (gfg, Math)
+|028        | Column with maximum sum in a Matrix |[`colWithMaxSumInMatrix`](./array/easy/maximum-col-sum/README.md)                                 |Easy (gfg, Math)
+|029        | Matrix Diagonal Sum                 |[`matrixDiagonalsSum`](./array/easy/matrix-diagonals-sum/README.md)                               |Easy (leetcode, Math)
+|030        | Search in 2D matrix                 |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Easy (matrix, binary)
 
 ### Map
 

@@ -1,8 +1,4 @@
-Here is the `README.md` content for **LeetCode 169: Majority Element**, following your preferred structure:
-
----
-
-## 169. Majority Element
+# 169. Majority Element
 
 ## Problem Statement
 
@@ -29,8 +25,6 @@ Output: 3
 Input: nums = [2,2,1,1,1,2,2]  
 Output: 2  
 ```
-
----
 
 ### Encouragement Before You Peek 👀
 
