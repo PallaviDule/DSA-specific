@@ -1,6 +1,8 @@
-# [![LeetCode Badge](https://img.shields.io/badge/LeetCode-1572-green)](https://leetcode.com/problems/matrix-diagonal-sum/) Matrix Diagonal Sum
+#  1572. Matrix Diagonal Sum
 
 ## Problem Statement
+[![GFG Badge](https://img.shields.io/badge/GFG-Diagonal%20Sum%20of%20a%20Matrix-green)](https://www.geeksforgeeks.org/sum-of-diagonals-of-a-matrix/)
+[![LeetCode Badge](https://img.shields.io/badge/LeetCode-1572-green)](https://leetcode.com/problems/matrix-diagonal-sum/)
 
 Given a square matrix `mat`, return the sum of the matrix diagonals. Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
 
