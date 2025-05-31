@@ -54,7 +54,7 @@ const problems = {
     rowWithMaxSumInMatrix: require('./array/easy/maximum-row-sum/solution'),
     colWithMaxSumInMatrix: require('./array/easy/maximum-col-sum/solution'),
     matrixDiagonalsSum: require('./array/easy/matrix-diagonals-sum/solution'),
-    matrixDiagonalSum : require('./array/easy/diagonal-sum-of-matrix/solution'),
+    searchIn2dMatrix: require('./array/medium/search-2d-matrix/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     // set
