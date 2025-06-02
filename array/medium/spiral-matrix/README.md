@@ -2,6 +2,8 @@
 
 ## Problem Statement
 
+[![LeetCode](https://img.shields.io/badge/LeetCode-54-green)](https://leetcode.com/problems/search-a-2d-matrix/description/)
+
 Given an `m x n` matrix, return all elements of the matrix in spiral order.
 
 ## Input

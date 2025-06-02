@@ -1,6 +1,6 @@
 # Search a 2D Matrix
 
-[![LeetCode Badge](https://img.shields.io/badge/LeetCode-74-green)](https://leetcode.com/problems/search-a-2d-matrix/)
+[![LeetCode Badge](https://img.shields.io/badge/LeetCode-74-green)](https://leetcode.com/problems/spiral-matrix)
 
 ## Problem Statement
 
