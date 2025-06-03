@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 65 Sample Problems (Grouped by Category)
+## 66 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -96,8 +96,9 @@ Great point — here's an improved version of the table with a note in the **"Re
 |028        | Column with maximum sum in a Matrix |[`colWithMaxSumInMatrix`](./array/easy/maximum-col-sum/README.md)                                 |Easy (gfg, Math)
 |029        | Matrix Diagonal Sum                 |[`matrixDiagonalsSum`](./array/easy/matrix-diagonals-sum/README.md)                               |Easy (leetcode, Math)
 |030        | Search in 2D matrix                 |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Medium (matrix, binary)
-|031        | Search in 2D matrix II                |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Medium (matrix, binary)
+|031        | Search in 2D matrix II              |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Medium (matrix, binary)
 |032        | spiral matrix                       |[`spiralMatrix`](./array/medium/spiral-matrix/README.md)                                          |Medium (matrix, simulation)
+|032        | spiral matrix II                    |[`spiralMatrixII`](./array/medium/spiral-matrix-II/README.md)                                     |Medium (matrix, simulation)
 
 ### Map
 
