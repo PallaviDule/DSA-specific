@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/PallaviDule/DSA-specific/issues"
   },
-  "homepage": "https://github.com/PallaviDule/DSA-specific#readme"
+  "homepage": "https://github.com/PallaviDule/DSA-specific#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
