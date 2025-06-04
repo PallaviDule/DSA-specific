@@ -4,6 +4,7 @@ const problems = {
     isArmstrong: require('./math/basic/armstrong-number/solution'),
     getGCD : require('./math/basic/greatest-common-divisor/solution'),
     isPrimeNumber: require('./math/basic/is-prime-number/solution'),
+    swapNum: require('./math/basic/swap-without-temp/solution'),
     fizzBuzz: require('./math/easy/fizz-buzz/solution'),
     numberOfSteps: require('./math/easy/number-of-steps-to-reduce-number/solution'),
     palindromeNumber: require('./math/easy/palindrome-number/solution'),
@@ -19,7 +20,7 @@ const problems = {
     xRaisedToPowerN: require('./math/medium/power-n-of-x/solution'),
     countPrimes: require('./math/medium/count-primes/solution'),
     reverseInteger: require('./math/medium/reverse-integer/solution'),
-    sumIntegerWithPlusMinus: require('./math/medium/sum-without-add-minus/solution'),
+    sumIntegerWithoutPlusMinus: require('./math/medium/sum-without-add-minus/solution'),
     // array
     sorting: require('./array/easy/sorting/solution'),
     reverseArray: require('./array/basic-array/reverse-array'),
