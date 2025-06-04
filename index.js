@@ -19,6 +19,7 @@ const problems = {
     xRaisedToPowerN: require('./math/medium/power-n-of-x/solution'),
     countPrimes: require('./math/medium/count-primes/solution'),
     reverseInteger: require('./math/medium/reverse-integer/solution'),
+    sumIntegerWithPlusMinus: require('./math/medium/sum-without-add-minus/solution'),
     // array
     sorting: require('./array/easy/sorting/solution'),
     reverseArray: require('./array/basic-array/reverse-array'),
