@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 67 Sample Problems (Grouped by Category)
+## 68 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -107,6 +107,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 | Problem No. | Title                  | Path/Problem Key | Difficulty
 |-------------|------------------------|------| ---
 | 001         | Ransom Note    | [`ransomNote`](./map/easy/ransom-note/README.md) | easy 
+| 002         | Unique Number of Occurrences    | [`uniqueOccurrences`](./map/easy/unique-number-occurrances/README.md) | easy (Set)
 
 ### String
 
