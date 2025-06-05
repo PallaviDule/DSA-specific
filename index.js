@@ -62,6 +62,7 @@ const problems = {
     spiralMatrixII: require('./array/medium/spiral-matrix-II/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
+    uniqueOccurrences: require('./map/easy/unique-number-occurrances/solution'),
     // set
     longestSubstringNoDuplicateSet: require('./set/medium/longest-substring-without-duplicate/solution'),
     // tree
