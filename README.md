@@ -101,6 +101,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |031        | Search in 2D matrix II              |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Medium (matrix, binary)
 |032        | spiral matrix                       |[`spiralMatrix`](./array/medium/spiral-matrix/README.md)                                          |Medium (matrix, simulation)
 |032        | spiral matrix II                    |[`spiralMatrixII`](./array/medium/spiral-matrix-II/README.md)                                     |Medium (matrix, simulation)
+|033        | 3 Sum                               |[`threeSum`](./array/medium/three-sum/solution.js)                                                |Medium (two pointers, sorting)
 
 ### Map
 

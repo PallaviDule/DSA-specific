@@ -44,6 +44,8 @@ var threeSum = function(nums) {
     let result = new Set()
 
     for(let i=0; i< newArr.length; i++){
+        if (i > 0 && nums[i] === nums[i - 1]) continue; // skipping duplicates: it actually reduced time 983ms to 70ms in leetcode
+        
         let start = i+1;
         let end = newArr.length-1;
 
@@ -51,6 +53,11 @@ var threeSum = function(nums) {
             let add = newArr[i]+newArr[start] + newArr[end];
             if( add === 0) {
                 result.add([newArr[i],newArr[start],newArr[end]].toString());
+
+                // Skip duplicates for left and right
+                while (start < end && nums[start] === nums[start + 1]) start++;
+                while (start < end && nums[end] === nums[end - 1]) end--;
+
                 start++; end--;
             } else if(add > 0){
                 end--;
@@ -66,7 +73,7 @@ var threeSum = function(nums) {
 
 
 export function run() {
-    console.log('Three numbers that sum to zero:', threeSum([-1,0,1,2,-1,-4])); // [-4,-1,-1,0,1,2]  // -4-1+2 = -3
+    console.log('Three numbers that sum to zero:', threeSum([-1,0,1,2,-1,-4]));
     console.log('Three numbers that sum to zero:', threeSum([0,1,1]));
     console.log('Three numbers that sum to zero:', threeSum([0,0,0]));
 }
