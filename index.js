@@ -60,6 +60,7 @@ const problems = {
     searchIn2dMatrixII: require('./array/medium/search-in-2d-matrix-II/solution'),
     spiralMatrix: require('./array/medium/spiral-matrix/solution'),
     spiralMatrixII: require('./array/medium/spiral-matrix-II/solution'),
+    threeSum: require('./array/medium/three-sum/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     uniqueOccurrences: require('./map/easy/unique-number-occurrances/solution'),
