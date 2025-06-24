@@ -1,7 +1,6 @@
-# 18. 4Sum
+# [![LeetCode Badge](https://img.shields.io/badge/LeetCode-18-green)](https://leetcode.com/problems/4sum/description/) 4Sum
 
-## Problem Statement
-
+##  Problem Statement:
 Given an array `nums` of `n` integers, return all unique quadruplets `[nums[a], nums[b], nums[c], nums[d]]` such that:
 
 * `0 <= a, b, c, d < n`
