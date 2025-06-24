@@ -1,4 +1,5 @@
 var fourSum = function(nums, target) {
+        console.log('Input array:', nums, ' and target:', target);
     nums.sort((a,b) => a - b);
     const result = [];
     const n = nums.length;
@@ -32,3 +33,9 @@ var fourSum = function(nums, target) {
     }
     return result;
 };
+
+export function run() {
+    console.log('Sum of 4 numbers:', fourSum([-1,0,1,2,-1,-4], 0));
+    console.log('--------------------------------------------------');
+    console.log('Sum of 4 numbers:', fourSum([2,2,2,2,2], 8));
+}

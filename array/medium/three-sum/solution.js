@@ -4,6 +4,8 @@
  */
  // brute force: time limit exceeded
 var threeSum1 = function(nums) {
+    console.log('Input array:', nums);
+
     let result = new Set()
     for(let i=0; i< nums.length-2; i++){
         for(let j=i+1; j < nums.length-1; j++){
@@ -40,6 +42,8 @@ var threeSum2 = function(nums) {
 
 // optimized: two pointers 
 var threeSum = function(nums) {
+        console.log('Input array:', nums);
+
     let newArr = nums.sort((a,b) => a-b);
     let result = [];
 
@@ -75,6 +79,10 @@ var threeSum = function(nums) {
 
 export function run() {
     console.log('Three numbers that sum to zero:', threeSum([-1,0,1,2,-1,-4]));
+        console.log('--------------------------------------------------');
+
     console.log('Three numbers that sum to zero:', threeSum([0,1,1]));
+        console.log('--------------------------------------------------');
+
     console.log('Three numbers that sum to zero:', threeSum([0,0,0]));
 }
