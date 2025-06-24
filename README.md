@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 69 Sample Problems (Grouped by Category)
+## 70 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -101,7 +101,8 @@ Great point — here's an improved version of the table with a note in the **"Re
 |031        | Search in 2D matrix II              |[`searchIn2dMatrix`](./array/medium/search-2d-matrix/README.md)                                   |Medium (matrix, binary)
 |032        | spiral matrix                       |[`spiralMatrix`](./array/medium/spiral-matrix/README.md)                                          |Medium (matrix, simulation)
 |032        | spiral matrix II                    |[`spiralMatrixII`](./array/medium/spiral-matrix-II/README.md)                                     |Medium (matrix, simulation)
-|033        | 3 Sum                               |[`threeSum`](./array/medium/three-sum/solution.js)                                                |Medium (two pointers, sorting)
+|033        | 3 Sum                               |[`threeSum`](./array/medium/three-sum/README.md)                                                  |Medium (two pointers, sorting)
+|034        | 4 Sum                               |[`fourSum`](./array/medium/four-sum/README.md)                                                    |Medium (two pointers, sorting)
 
 ### Map
 

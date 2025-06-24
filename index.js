@@ -61,6 +61,7 @@ const problems = {
     spiralMatrix: require('./array/medium/spiral-matrix/solution'),
     spiralMatrixII: require('./array/medium/spiral-matrix-II/solution'),
     threeSum: require('./array/medium/three-sum/solution'),
+    fourSum: require('./array/medium/four-sum/solution'),
     // map
     ransomNote: require('./map/easy/ransom-note/solution'),
     uniqueOccurrences: require('./map/easy/unique-number-occurrances/solution'),
