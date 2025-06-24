@@ -4,7 +4,7 @@
  */
 function threeSum(nums: number[]): number[][] {
     nums.sort((a,b) => a-b);
-    let result = new Set<string>();
+    let result : number[][] = [];
 
     for(let i=0; i< nums.length-1; i++){
         if (i > 0 && nums[i] === nums[i - 1]) continue; // skipping duplicates
@@ -15,7 +15,7 @@ function threeSum(nums: number[]): number[][] {
         while(start < end) {
             let add = nums[i]+nums[start] + nums[end];
             if( add === 0) {
-                result.add([nums[i],nums[start],nums[end]].toString());
+                result.push([nums[i],nums[start],nums[end]]);
 
                  // Skip duplicates for left and right
                 while (start < end && nums[start] === nums[start + 1]) start++;
@@ -30,7 +30,7 @@ function threeSum(nums: number[]): number[][] {
         }
     }
 
-     return Array.from(result).map(s => s.split(',').map(Number));
+     return result;
 };
 
 export function run() {

@@ -38,13 +38,14 @@ var threeSum2 = function(nums) {
      return Array.from(result).map(s => s.split(',').map(Number));
 }
 
-// two pointers 
+// optimized: two pointers 
 var threeSum = function(nums) {
     let newArr = nums.sort((a,b) => a-b);
-    let result = new Set()
+    let result = [];
 
     for(let i=0; i< newArr.length; i++){
         if (i > 0 && nums[i] === nums[i - 1]) continue; // skipping duplicates: it actually reduced time 983ms to 70ms in leetcode
+        if(nums[i] > 0) break;
         
         let start = i+1;
         let end = newArr.length-1;
@@ -52,7 +53,7 @@ var threeSum = function(nums) {
         while(start < end) {
             let add = newArr[i]+newArr[start] + newArr[end];
             if( add === 0) {
-                result.add([newArr[i],newArr[start],newArr[end]].toString());
+                result.push([newArr[i],newArr[start],newArr[end]]);
 
                 // Skip duplicates for left and right
                 while (start < end && nums[start] === nums[start + 1]) start++;
@@ -67,7 +68,7 @@ var threeSum = function(nums) {
         }
     }
 
-     return Array.from(result).map(s => s.split(',').map(Number));
+     return result;
 }
 
 
