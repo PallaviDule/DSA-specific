@@ -89,6 +89,7 @@ const problems = {
     addTwoLinkedListNumber: require('./linked-list/medium/add-two-numbers/solution'),
     mergeTwoSortedLinkedList: require('./linked-list/easy/merge-two-sorted-lists/solution'),
     deleteDuplicates: require('./linked-list/easy/remove-duplicates/solution'),
+    runLinkedListMethods : require('./linked-list/implement-linkedlist-method/solution'),
 
     //binary
     decimalToBinary: require('./binary/easy/decimal-to-binary/solution'),

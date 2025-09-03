@@ -62,9 +62,8 @@ function intersection4(nums1, nums2) {
 
 
 export function run () {
-    console.log('Intersection of two arrays:', intersection([1,2,3,4,5], [1,9,5]));
+    console.log('Intersection of two arrays:', intersection([1,2,3,4,5], [1,9,5])); // [ 1, 5 ]
     console.log('-----------------------------------');
-    console.log('Intersection of two arrays:',intersection([5,4,3,2,1,0], [0,1,1,4]));
+    console.log('Intersection of two arrays:',intersection([5,4,3,2,1,0], [0,1,1,4])); // [ 0, 1, 4 ]
     console.log('-----------------------------------');
 }
-

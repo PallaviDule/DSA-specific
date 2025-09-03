@@ -11,10 +11,10 @@ var findGCD = function(nums) {
         maxNum = maxNum > nums[i] ? maxNum : nums[i];
     }
     // Euclidean GCD
-    while(minNum > 0){
-        let temp = minNum;
-        minNum = maxNum % minNum;
-        maxNum = temp ;
+    while(minNum > 0){ // min = 3, max=7
+        let temp = minNum; // 3 // 1
+        minNum = maxNum % minNum; // 7%3= 1 // 3%1=0
+        maxNum = temp ; // 3 // 1
     }
 
     return maxNum;
