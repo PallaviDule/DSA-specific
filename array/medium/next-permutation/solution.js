@@ -5,7 +5,6 @@
 // 4. Return the next one in order.
 // 5. If current is last, return the first.
 
-
 const nextPermutation = (arr) =>{
     let pivotIndex = -1;
      // Step 1: Find the first element (from the end) that is smaller than its next

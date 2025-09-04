@@ -40,7 +40,7 @@ Great point — here's an improved version of the table with a note in the **"Re
             - Example: To run the **Two Sum** solution, use the following command:`node index.js twoSum` or `npm start twoSum`
 
 
-## 70 Sample Problems (Grouped by Category)
+## 75 Sample Problems (Grouped by Category)
 
 ### Math / Basic Algorithm
 
@@ -103,7 +103,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 |032        | spiral matrix II                    |[`spiralMatrixII`](./array/medium/spiral-matrix-II/README.md)                                     |Medium (matrix, simulation)
 |033        | 3 Sum                               |[`threeSum`](./array/medium/three-sum/README.md)                                                  |Medium (two pointers, sorting)
 |034        | 4 Sum                               |[`fourSum`](./array/medium/four-sum/README.md)                                                    |Medium (two pointers, sorting)
-
+|035        | Subsets                              |[`subsets`](./array/medium/subsets/README.md)                                                    |Medium (backtracking)
 ### Map
 
 | Problem No. | Title                  | Path/Problem Key | Difficulty
@@ -156,6 +156,7 @@ Great point — here's an improved version of the table with a note in the **"Re
 | 002         | Add two numbers    | [`addTwoLinkedListNumber`](./linked-list/medium/add-two-numbers/README.md) | Medium 
 | 003         | Merge two sorted List    | [`mergeTwoSortedLinkedList`](./linked-list/easy/merge-two-sorted-lists/README.md) | Easy 
 | 004         | Delete Duplicates    | [`deleteDuplicates`](./linked-list/easy/remove-duplicates/README.md) | Easy 
+| 005        | LinkedList methods    | [`runLinkedListMethods`](./linked-list/implement-linkedlist-method/README.md) | Easy 
 
 
 ## Cheatsheet
